@@ -1,0 +1,91 @@
+Using device: cuda:0
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+
+This is the configuration used by this training:
+Configuration name: 2d
+ {'data_identifier': 'nnUNetPlans_2d', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 49, 'patch_size': [256, 256], 'median_image_size_in_voxels': [256.0, 256.0], 'spacing': [1.0, 1.0], 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'UNet_class_name': 'PlainConvUNet', 'UNet_base_num_features': 32, 'n_conv_per_stage_encoder': [2, 2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2, 2], 'num_pool_per_axis': [6, 6], 'pool_op_kernel_sizes': [[1, 1], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]], 'conv_kernel_sizes': [[3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3]], 'unet_max_num_features': 512, 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'batch_dice': True} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset011_Melanoma', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [1.0, 1.0, 1.0], 'original_median_shape_after_transp': [3, 256, 256], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 255.0, 'mean': 155.04945373535156, 'median': 158.0, 'min': 0.0, 'percentile_00_5': 10.0, 'percentile_99_5': 253.0, 'std': 47.13301086425781}}} 
+
+2023-10-19 16:04:08.446977: unpacking dataset...
+2023-10-19 16:04:16.051302: unpacking done...
+2023-10-19 16:04:16.051830: do_dummy_2d_data_aug: False
+2023-10-19 16:04:16.061743: Creating new 5-fold cross-validation split...
+2023-10-19 16:04:16.071370: Desired fold for training: 0
+2023-10-19 16:04:16.071495: This split has 1331 training and 333 validation cases.
+2023-10-19 16:04:16.126060: Unable to plot network architecture:
+2023-10-19 16:04:16.126144: No module named 'IPython'
+2023-10-19 16:04:16.155560: 
+2023-10-19 16:04:16.155658: Epoch 0
+2023-10-19 16:04:16.155783: Current learning rate: 0.01
+Traceback (most recent call last):
+  File "/home/scur0404/.local/lib/python3.10/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 53, in producer
+    item = next(data_loader)
+  File "/home/scur0404/.local/lib/python3.10/site-packages/batchgenerators/dataloading/data_loader.py", line 126, in __next__
+    return self.generate_train_batch()
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/training/dataloading/data_loader_2d.py", line 18, in generate_train_batch
+    data, seg, properties = self._data.load_case(current_key)
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/training/dataloading/nnunet_dataset.py", line 86, in load_case
+    data = np.load(entry['data_file'][:-4] + ".npy", 'r')
+  File "/home/scur0404/.local/lib/python3.10/site-packages/numpy/lib/npyio.py", line 453, in load
+    return format.open_memmap(file, mode=mmap_mode,
+  File "/home/scur0404/.local/lib/python3.10/site-packages/numpy/lib/format.py", line 945, in open_memmap
+    marray = numpy.memmap(filename, dtype=dtype, shape=shape, order=order,
+  File "/home/scur0404/.local/lib/python3.10/site-packages/numpy/core/memmap.py", line 268, in __new__
+    mm = mmap.mmap(fid.fileno(), bytes, access=acc, offset=start)
+ValueError: mmap length is greater than file size
+Exception in background worker 1:
+ mmap length is greater than file size
+Traceback (most recent call last):
+  File "/home/scur0404/.local/lib/python3.10/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 53, in producer
+    item = next(data_loader)
+  File "/home/scur0404/.local/lib/python3.10/site-packages/batchgenerators/dataloading/data_loader.py", line 126, in __next__
+    return self.generate_train_batch()
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/training/dataloading/data_loader_2d.py", line 18, in generate_train_batch
+    data, seg, properties = self._data.load_case(current_key)
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/training/dataloading/nnunet_dataset.py", line 86, in load_case
+    data = np.load(entry['data_file'][:-4] + ".npy", 'r')
+  File "/home/scur0404/.local/lib/python3.10/site-packages/numpy/lib/npyio.py", line 453, in load
+    return format.open_memmap(file, mode=mmap_mode,
+  File "/home/scur0404/.local/lib/python3.10/site-packages/numpy/lib/format.py", line 945, in open_memmap
+    marray = numpy.memmap(filename, dtype=dtype, shape=shape, order=order,
+  File "/home/scur0404/.local/lib/python3.10/site-packages/numpy/core/memmap.py", line 268, in __new__
+    mm = mmap.mmap(fid.fileno(), bytes, access=acc, offset=start)
+ValueError: mmap length is greater than file size
+Exception in background worker 2:
+ mmap length is greater than file size
+using pin_memory on device 0
+Traceback (most recent call last):
+  File "/home/scur0404/.local/bin/nnUNetv2_train", line 8, in <module>
+    sys.exit(run_training_entry())
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/run/run_training.py", line 268, in run_training_entry
+    run_training(args.dataset_name_or_id, args.configuration, args.fold, args.tr, args.p, args.pretrained_weights,
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/run/run_training.py", line 204, in run_training
+    nnunet_trainer.run_training()
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/training/nnUNetTrainer/nnUNetTrainer.py", line 1242, in run_training
+    train_outputs.append(self.train_step(next(self.dataloader_train)))
+  File "/home/scur0404/.local/lib/python3.10/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 196, in __next__
+    item = self.__get_next_item()
+  File "/home/scur0404/.local/lib/python3.10/site-packages/batchgenerators/dataloading/nondet_multi_threaded_augmenter.py", line 181, in __get_next_item
+    raise RuntimeError("One or more background workers are no longer alive. Exiting. Please check the "
+RuntimeError: One or more background workers are no longer alive. Exiting. Please check the print statements above for the actual error message
+
+JOB STATISTICS
+==============
+Job ID: 4216083
+Cluster: snellius
+User/Group: scur0404/scur0404
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:41
+CPU Efficiency: 6.51% of 00:10:30 core-walltime
+Job Wall-clock time: 00:00:35
+Memory Utilized: 1.26 MB
+Memory Efficiency: 0.00% of 31.25 GB

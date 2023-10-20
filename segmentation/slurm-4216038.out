@@ -1,0 +1,36 @@
+nnUNet_raw is not defined and nnU-Net can only be used on data for which preprocessed files are already present on your system. nnU-Net cannot be used for experiment planning and preprocessing like this. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up properly.
+nnUNet_preprocessed is not defined and nnU-Net can not be used for preprocessing or training. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up.
+nnUNet_results is not defined and nnU-Net cannot be used for training or inference. If this is not intended behavior, please read documentation/setting_up_paths.md for information on how to set this up.
+Traceback (most recent call last):
+  File "/home/scur0404/.local/bin/nnUNetv2_train", line 8, in <module>
+    sys.exit(run_training_entry())
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/run/run_training.py", line 268, in run_training_entry
+    run_training(args.dataset_name_or_id, args.configuration, args.fold, args.tr, args.p, args.pretrained_weights,
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/run/run_training.py", line 189, in run_training
+    nnunet_trainer = get_trainer_from_args(dataset_name_or_id, configuration, fold, trainer_class_name,
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/run/run_training.py", line 61, in get_trainer_from_args
+    preprocessed_dataset_folder_base = join(nnUNet_preprocessed, maybe_convert_to_dataset_name(dataset_name_or_id))
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/utilities/dataset_name_id_conversion.py", line 74, in maybe_convert_to_dataset_name
+    return convert_id_to_dataset_name(dataset_name_or_id)
+  File "/gpfs/home4/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet/nnunetv2/utilities/dataset_name_id_conversion.py", line 48, in convert_id_to_dataset_name
+    raise RuntimeError(f"Could not find a dataset with the ID {dataset_id}. Make sure the requested dataset ID "
+RuntimeError: Could not find a dataset with the ID 11. Make sure the requested dataset ID exists and that nnU-Net knows where raw and preprocessed data are located (see Documentation - Installation). Here are your currently defined folders:
+nnUNet_preprocessed=None
+nnUNet_results=None
+nnUNet_raw=None
+If something is not right, adapt your environment variables.
+
+JOB STATISTICS
+==============
+Job ID: 4216038
+Cluster: snellius
+User/Group: scur0404/scur0404
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:05:06 core-walltime
+Job Wall-clock time: 00:00:17
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
