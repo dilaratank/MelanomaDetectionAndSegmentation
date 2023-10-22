@@ -59,28 +59,32 @@ def copy_images_and_masks(source_folder, target_folder, dataset_id):
                 shutil.copy(mask_path, os.path.join(labels_tr_folder, new_mask_name))
 
                 mask = nib.load(mask_path).get_fdata()
-                mask = np.resize(mask, (256, 256, 3)) # hardcoded
-                
+                mask = np.resize(mask, (256, 256, 3))  # hardcoded
+
                 img = nib.Nifti1Image(mask, np.eye(4))
                 img.get_data_dtype() == np.dtype(np.int16)
                 img.header.get_xyzt_units()
-                
+
                 nib.save(img, os.path.join(labels_tr_folder, new_mask_name))
 
-            
+# Function to copy images and masks from the "val" folder
+def copy_val_data(data_folder, nnunet_raw_folder, dataset_id):
+    val_folder = os.path.join(data_folder, 'segmentation', 'val')
+    copy_images_and_masks(val_folder, nnunet_raw_folder, dataset_id)
 
 # Specify your dataset ID (choose an unused ID)
 dataset_id = 11  # You can change this to an unused ID
 
-# Copy images and masks to the target directory
+# Copy images and masks from the "train" folder
 copy_images_and_masks(os.path.join(data_folder, 'segmentation', 'train'), nnunet_raw_folder, dataset_id)
+
+# Copy images and masks from the "val" folder
+copy_val_data(data_folder, nnunet_raw_folder, dataset_id)
 
 # Create the dataset.json file
 dataset_info = {
     "channel_names": {
-        "RGB": 0 #,
-        #"G": 1, 
-        #"B": 2
+        "RGB": 0,
     },
     "labels": {
         "background": 0,
@@ -89,9 +93,10 @@ dataset_info = {
     "numTraining": len(os.listdir(os.path.join(nnunet_raw_folder, f'Dataset{dataset_id}_Melanoma', 'imagesTr'))),
     "file_ending": ".nii.gz",
     "overwrite_image_reader_writer": "NibabelIO"
-}
+    }
 
 with open(os.path.join(nnunet_raw_folder, f'Dataset{dataset_id}_Melanoma', 'dataset.json'), 'w') as json_file:
     json.dump(dataset_info, json_file, indent=4)
 
 print("Dataset preparation completed.")
+

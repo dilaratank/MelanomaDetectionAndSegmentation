@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --job-name=nnUnet
 #SBATCH --cpus-per-task=8
-#SBATCH --time=05:00:00
+#SBATCH --time=20:00:00
 #SBATCH --mem=32000M
 
 source $HOME/melanomadetseg/bin/activate
@@ -21,5 +21,6 @@ export nnUNet_results="/home/scur0404/projects/MelanomaDetectionAndSegmentation/
 cd /home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet
 
 # Execute program located in $HOME and redirect outputs to the log file
-nnUNetv2_train 11 2d 0
+nnUNetv2_train 12 2d 0
+# nnUNetv2_train 11 2d 1
 # srun python train_classifier.py --batch_size=64 --lr=0.02 --freeze_until_layer=5
