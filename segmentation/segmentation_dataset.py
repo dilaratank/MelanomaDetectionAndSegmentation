@@ -5,7 +5,7 @@ import nibabel as nib
 import numpy as np
 
 # Define the paths to your original data and the target nnUNet_raw folder
-data_folder = '../data'
+data_folder = '../data_processed'
 nnunet_raw_folder = '../nnUNet_raw'
 
 # Create the nnUNet_raw folder if it doesn't exist
@@ -73,7 +73,7 @@ def copy_val_data(data_folder, nnunet_raw_folder, dataset_id):
     copy_images_and_masks(val_folder, nnunet_raw_folder, dataset_id)
 
 # Specify your dataset ID (choose an unused ID)
-dataset_id = 11  # You can change this to an unused ID
+dataset_id = 13  # You can change this to an unused ID
 
 # Copy images and masks from the "train" folder
 copy_images_and_masks(os.path.join(data_folder, 'segmentation', 'train'), nnunet_raw_folder, dataset_id)

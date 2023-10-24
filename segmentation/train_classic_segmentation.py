@@ -14,7 +14,7 @@ import pytorch_lightning as pl
 from models import UNet
 from datasets import Scan_DataModule_Segm
 
-data_dir = '../data/segmentation/'
+data_dir = '/home/scur0404/projects/MelanomaDetectionAndSegmentation/data_processed/segmentation/'
 
 def get_config(args):
     config_segm = {
@@ -61,10 +61,12 @@ class Segmenter(pl.LightningModule):
     X, y   = X.float().to('cuda'), y.to('cuda').float()
     y_hat  = self.model(X)
     y_prob = torch.sigmoid(y_hat)
-    del X, y_hat, batch
 
     pos_weight = torch.tensor([config_segm['loss_pos_weight']]).float().to('cuda')
-    loss = F.binary_cross_entropy_with_logits(y, y_prob, pos_weight=pos_weight)
+    #loss = F.binary_cross_entropy_with_logits(y, y_prob, pos_weight=pos_weight)
+    loss = F.binary_cross_entropy_with_logits(y_hat, y.float(), pos_weight=pos_weight)
+    del X, y_hat, batch
+    
     self.log(f"{nn_set}/loss", loss, on_step=False, on_epoch=True)
 
     for i, (metric_name, metric_fn) in enumerate(metrics.items()):

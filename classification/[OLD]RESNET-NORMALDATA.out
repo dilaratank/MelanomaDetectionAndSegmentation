@@ -1,0 +1,40 @@
+wandb:   1 of 1 files downloaded.  
+/home/scur0404/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/scur0404/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/scur0404/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:67: UserWarning: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+  warning_cache.warn(
+You are using a CUDA device ('NVIDIA A100-SXM4-40GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+SLURM auto-requeueing enabled. Setting signal handlers.
+Testing: 0it [00:00, ?it/s]Testing:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   8%|▊         | 1/13 [00:01<00:16,  1.38s/it]Testing DataLoader 0:  15%|█▌        | 2/13 [00:01<00:07,  1.42it/s]Testing DataLoader 0:  23%|██▎       | 3/13 [00:01<00:04,  2.10it/s]Testing DataLoader 0:  31%|███       | 4/13 [00:01<00:03,  2.75it/s]Testing DataLoader 0:  38%|███▊      | 5/13 [00:01<00:02,  3.38it/s]Testing DataLoader 0:  46%|████▌     | 6/13 [00:01<00:01,  3.99it/s]Testing DataLoader 0:  54%|█████▍    | 7/13 [00:01<00:01,  4.58it/s]Testing DataLoader 0:  62%|██████▏   | 8/13 [00:01<00:00,  5.14it/s]Testing DataLoader 0:  69%|██████▉   | 9/13 [00:01<00:00,  5.69it/s]Testing DataLoader 0:  77%|███████▋  | 10/13 [00:01<00:00,  6.23it/s]Testing DataLoader 0:  85%|████████▍ | 11/13 [00:01<00:00,  6.74it/s]Testing DataLoader 0:  92%|█████████▏| 12/13 [00:01<00:00,  7.25it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  7.67it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  7.66it/s]
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃        Test metric        ┃       DataLoader 0        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│         test/acc          │    0.7524999976158142     │
+│          test/f1          │    0.7565628290176392     │
+│         test/loss         │    0.4757270812988281     │
+│      test/precision       │    0.7517380714416504     │
+│        test/recall        │    0.7661764621734619     │
+└───────────────────────────┴───────────────────────────┘
+[{'test/loss': 0.4757270812988281, 'test/acc': 0.7524999976158142, 'test/f1': 0.7565628290176392, 'test/precision': 0.7517380714416504, 'test/recall': 0.7661764621734619}]
+
+JOB STATISTICS
+==============
+Job ID: 4234119
+Cluster: snellius
+User/Group: scur0404/scur0404
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:05:24 core-walltime
+Job Wall-clock time: 00:00:18
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

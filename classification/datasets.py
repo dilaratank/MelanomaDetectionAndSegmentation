@@ -49,6 +49,16 @@ class Scan_Dataset(Dataset):
       #image = np.transpose(image, (2, 0, 1))
 
       # setting label from image name
+      # print()
+      # print()
+      # print()
+      # print('HAAALLLLOOOOOO')
+      # print('img name', image_name)
+      # print(image_name.split('.'))
+      # print()
+      # print()
+      # print()
+
       label = int(image_name.split('.')[0][-1])
       label = torch.tensor(label)
 

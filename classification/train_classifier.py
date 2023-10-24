@@ -14,7 +14,7 @@ import pytorch_lightning as pl
 
 from models import VGG, ResNet, SimpleConvNet, ViTMelanoma
 
-data_dir = 'data/classification/'
+data_dir = '/home/scur0404/projects/MelanomaDetectionAndSegmentation/data_processed/classification/'
 
 def get_config(args):
     config = {
@@ -23,11 +23,11 @@ def get_config(args):
         'test_data_dir'  : os.path.join(data_dir, 'test'),
         'batch_size'     : args.batch_size,
         'optimizer_lr'   : args.optimizer_lr,
-        'max_epochs'     : 10,
-        'model_name'     : 'ViTMelanoma',
+        'max_epochs'     : 50,
+        'model_name'     : 'resnet18',
         'optimizer_name' : 'sgd',
         'bin'            : 'models/',
-        'experiment_name': 'ViT',
+        'experiment_name': 'resnetprocessed',
         'num_workers'    :  8,
         'freeze_until_layer': args.freeze_until_layer
     }
@@ -49,7 +49,7 @@ metrics    = {'acc'           : torchmetrics.Accuracy(task='binary').to('cuda'),
 
 class Classifier(pl.LightningModule):
   def __init__(self, *args):
-    super().__init__(config)
+    super().__init__()
 
     # defining model
     self.model_name = config['model_name']

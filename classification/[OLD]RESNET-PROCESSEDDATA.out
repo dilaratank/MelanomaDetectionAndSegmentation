@@ -1,0 +1,39 @@
+wandb:   1 of 1 files downloaded.  
+/home/scur0404/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/scur0404/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/scur0404/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:67: UserWarning: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+  warning_cache.warn(
+You are using a CUDA device ('NVIDIA A100-SXM4-40GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+SLURM auto-requeueing enabled. Setting signal handlers.
+Testing: 0it [00:00, ?it/s]Testing:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   8%|▊         | 1/13 [00:02<00:26,  2.19s/it]Testing DataLoader 0:  15%|█▌        | 2/13 [00:02<00:12,  1.11s/it]Testing DataLoader 0:  23%|██▎       | 3/13 [00:02<00:07,  1.34it/s]Testing DataLoader 0:  31%|███       | 4/13 [00:02<00:05,  1.76it/s]Testing DataLoader 0:  38%|███▊      | 5/13 [00:02<00:03,  2.18it/s]Testing DataLoader 0:  46%|████▌     | 6/13 [00:02<00:02,  2.59it/s]Testing DataLoader 0:  54%|█████▍    | 7/13 [00:02<00:02,  2.99it/s]Testing DataLoader 0:  62%|██████▏   | 8/13 [00:02<00:01,  3.38it/s]Testing DataLoader 0:  69%|██████▉   | 9/13 [00:02<00:01,  3.76it/s]Testing DataLoader 0:  77%|███████▋  | 10/13 [00:02<00:00,  4.14it/s]Testing DataLoader 0:  85%|████████▍ | 11/13 [00:02<00:00,  4.50it/s]Testing DataLoader 0:  92%|█████████▏| 12/13 [00:02<00:00,  4.87it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:02<00:00,  5.19it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:02<00:00,  5.18it/s]
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃        Test metric        ┃       DataLoader 0        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│         test/acc          │    0.7774999737739563     │
+│          test/f1          │    0.7583410739898682     │
+│         test/loss         │    0.4849771559238434     │
+│      test/precision       │    0.8267829418182373     │
+│        test/recall        │    0.7123529314994812     │
+└───────────────────────────┴───────────────────────────┘
+[{'test/loss': 0.4849771559238434, 'test/acc': 0.7774999737739563, 'test/f1': 0.7583410739898682, 'test/precision': 0.8267829418182373, 'test/recall': 0.7123529314994812}]
+
+JOB STATISTICS
+==============
+Job ID: 4234126
+Cluster: snellius
+User/Group: scur0404/scur0404
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:21
+CPU Efficiency: 6.48% of 00:05:24 core-walltime
+Job Wall-clock time: 00:00:18
+Memory Utilized: 1.31 MB
+Memory Efficiency: 0.00% of 31.25 GB
