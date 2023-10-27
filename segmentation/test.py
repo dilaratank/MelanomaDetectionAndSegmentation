@@ -1,6 +1,10 @@
+'''
+Code copied from Notebook provided by pracitcal.
+We replaces the tensorboard logger with the wandb logger.
+'''
+
 import glob
 import os
-#from datasets import Scan_DataModule
 import pytorch_lightning as pl
 import argparse
 import wandb

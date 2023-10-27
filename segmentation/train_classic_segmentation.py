@@ -1,4 +1,7 @@
-#from utils import Classifier
+'''
+Code copied from Notebook provided by pracitcal.
+We replaces the tensorboard logger with the wandb logger.
+'''
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 import torch

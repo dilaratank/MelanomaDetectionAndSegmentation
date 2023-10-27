@@ -1,3 +1,7 @@
+'''
+Script to prepare the data for nnUNet, following the nnUNet documentation
+'''
+
 import os
 import json
 import shutil
@@ -41,7 +45,7 @@ def copy_images_and_masks(source_folder, target_folder, dataset_id):
                 shutil.copy(image_path, os.path.join(images_tr_folder, new_image_name))
 
                 img = nib.load(image_path).get_fdata()
-                img = img[:, :, 0]
+                img = img[:, :, 0] # transform image to grayscale
 
                 img = nib.Nifti1Image(img, np.eye(4))
                 img.get_data_dtype() == np.dtype(np.int16)
@@ -65,16 +69,6 @@ def copy_images_and_masks(source_folder, target_folder, dataset_id):
 
                 # Copy the mask to the labelsTr folder
                 shutil.copy(mask_path, os.path.join(labels_tr_folder, new_mask_name))
-
-                # mask = nib.load(mask_path).get_fdata()
-                # mask = np.expand_dims(mask, axis=2)
-                # #mask = np.resize(mask, (256, 256, 3))  # hardcoded
-
-                # img = nib.Nifti1Image(mask, np.eye(4))
-                # img.get_data_dtype() == np.dtype(np.int16)
-                # img.header.get_xyzt_units()
-
-                # nib.save(img, os.path.join(labels_tr_folder, new_mask_name))
 
 # Function to copy images and masks from the "val" folder
 def copy_val_data(data_folder, nnunet_raw_folder, dataset_id):
@@ -101,7 +95,6 @@ dataset_info = {
     },
     "numTraining": len(os.listdir(os.path.join(nnunet_raw_folder, f'Dataset{dataset_id}_Melanoma', 'imagesTr'))),
     "file_ending": ".nii.gz",
-    "overwrite_image_reader_writer": "NibabelIO"
     }
 
 with open(os.path.join(nnunet_raw_folder, f'Dataset{dataset_id}_Melanoma', 'dataset.json'), 'w') as json_file:

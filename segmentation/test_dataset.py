@@ -1,3 +1,7 @@
+'''
+Script to prepare the test data for nnUNet evaluation, following the nnUNet documentation
+'''
+
 import os
 import shutil
 import nibabel as nib
@@ -35,11 +39,9 @@ def copy_and_rename_test_data(source_folder, target_set_folder, target_msk_folde
                 # Copy the image to the test_set folder
                 shutil.copy(image_path, os.path.join(target_set_folder, new_image_name))
 
-                # Optional: If you want to manipulate the image, you can add code here
-
                 # Example code to manipulate the image using Nibabel
                 img = nib.load(image_path).get_fdata()
-                img = img[:, :, 0]
+                img = img[:, :, 0] # transform image to grayscale
 
                 img = nib.Nifti1Image(img, np.eye(4))
                 img.get_data_dtype() == np.dtype(np.int16)
@@ -62,18 +64,6 @@ def copy_and_rename_test_data(source_folder, target_set_folder, target_msk_folde
 
                 # Copy the mask to the test_msk folder
                 shutil.copy(mask_path, os.path.join(target_msk_folder, new_mask_name))
-
-                # Optional: If you want to manipulate the mask, you can add code here
-
-                # Example code to manipulate the mask using Nibabel
-                # mask = nib.load(mask_path).get_fdata()
-                # mask = np.expand_dims(mask, axis=2)
-
-                # img = nib.Nifti1Image(mask, np.eye(4))
-                # img.get_data_dtype() == np.dtype(np.int16)
-                # img.header.get_xyzt_units()
-
-                # nib.save(img, os.path.join(target_msk_folder, new_mask_name))
 
 # Copy and rename test data from the source folder to the target folders
 copy_and_rename_test_data(data_folder, test_set_folder, test_msk_folder)

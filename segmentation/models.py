@@ -1,3 +1,6 @@
+'''
+Code copied from Notebook provided by pracitcal.
+'''
 import torch 
 import torch.nn.functional as F
 

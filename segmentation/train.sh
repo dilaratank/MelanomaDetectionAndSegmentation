@@ -20,8 +20,7 @@ export nnUNet_results="/home/scur0404/projects/MelanomaDetectionAndSegmentation/
 
 cd /home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet
 
-# Execute program located in $HOME and redirect outputs to the log file
-
+# Execute program
 # train
 #nnUNetv2_train 11 2d all
 
