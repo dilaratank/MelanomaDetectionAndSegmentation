@@ -28,7 +28,7 @@ def get_config(args):
         'model_name'     : 'unet',
         'optimizer_name' : 'adam',
         'bin'            : 'segm_models/',
-        'experiment_name': 'adam'
+        'experiment_name': 'unetprocessed'
     }
     return config_segm
 
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     data                = Scan_DataModule_Segm(config_segm)
     segmenter           = Segmenter(config_segm)
     logger              = wandb_logger
-    checkpoint_callback = pl.callbacks.ModelCheckpoint(monitor='val/f1')
+    checkpoint_callback = pl.callbacks.ModelCheckpoint(monitor='val/f1', mode='max')
     trainer             = pl.Trainer(devices=1, accelerator='gpu', max_epochs=config_segm['max_epochs'],
                                     logger=logger, callbacks=[checkpoint_callback],
                                     default_root_dir=config_segm['bin'], deterministic=True,

@@ -1,3 +1,6 @@
+'''
+Code copied from Notebook provided by pracitcal.
+'''
 import os
 import glob
 import numpy as np
@@ -15,19 +18,6 @@ from torch.utils.data import DataLoader, Dataset
 
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import TensorBoardLogger
-
-# SEED=42
-
-# torch.backends.cudnn.deterministic = True
-# torch.backends.cudnn.benchmark = False
-# torch.use_deterministic_algorithms(True, warn_only=True)
-# torch.manual_seed(SEED)
-# torch.cuda.manual_seed_all(SEED)
-# np.random.seed(SEED)
-# np.random.RandomState(SEED)
-# #random.seed(SEED)
-# os.environ["PL_GLOBAL_SEED"] = str(SEED)
-# os.environ["PL_SEED_WORKERS"] = "0"
 
 class Scan_Dataset(Dataset):
     def __init__(self, data_dir, transform=False):
@@ -49,16 +39,6 @@ class Scan_Dataset(Dataset):
       #image = np.transpose(image, (2, 0, 1))
 
       # setting label from image name
-      # print()
-      # print()
-      # print()
-      # print('HAAALLLLOOOOOO')
-      # print('img name', image_name)
-      # print(image_name.split('.'))
-      # print()
-      # print()
-      # print()
-
       label = int(image_name.split('.')[0][-1])
       label = torch.tensor(label)
 

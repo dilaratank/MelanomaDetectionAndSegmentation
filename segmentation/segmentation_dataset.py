@@ -5,7 +5,7 @@ import nibabel as nib
 import numpy as np
 
 # Define the paths to your original data and the target nnUNet_raw folder
-data_folder = '../data_processed'
+data_folder = '../data'
 nnunet_raw_folder = '../nnUNet_raw'
 
 # Create the nnUNet_raw folder if it doesn't exist
@@ -41,6 +41,14 @@ def copy_images_and_masks(source_folder, target_folder, dataset_id):
                 shutil.copy(image_path, os.path.join(images_tr_folder, new_image_name))
 
                 img = nib.load(image_path).get_fdata()
+                img = img[:, :, 0]
+
+                img = nib.Nifti1Image(img, np.eye(4))
+                img.get_data_dtype() == np.dtype(np.int16)
+                img.header.get_xyzt_units()
+
+                nib.save(img, os.path.join(images_tr_folder, new_image_name))
+
 
             elif file.startswith('msk_'):
                 # Mask file
@@ -58,14 +66,15 @@ def copy_images_and_masks(source_folder, target_folder, dataset_id):
                 # Copy the mask to the labelsTr folder
                 shutil.copy(mask_path, os.path.join(labels_tr_folder, new_mask_name))
 
-                mask = nib.load(mask_path).get_fdata()
-                mask = np.resize(mask, (256, 256, 3))  # hardcoded
+                # mask = nib.load(mask_path).get_fdata()
+                # mask = np.expand_dims(mask, axis=2)
+                # #mask = np.resize(mask, (256, 256, 3))  # hardcoded
 
-                img = nib.Nifti1Image(mask, np.eye(4))
-                img.get_data_dtype() == np.dtype(np.int16)
-                img.header.get_xyzt_units()
+                # img = nib.Nifti1Image(mask, np.eye(4))
+                # img.get_data_dtype() == np.dtype(np.int16)
+                # img.header.get_xyzt_units()
 
-                nib.save(img, os.path.join(labels_tr_folder, new_mask_name))
+                # nib.save(img, os.path.join(labels_tr_folder, new_mask_name))
 
 # Function to copy images and masks from the "val" folder
 def copy_val_data(data_folder, nnunet_raw_folder, dataset_id):
@@ -73,7 +82,7 @@ def copy_val_data(data_folder, nnunet_raw_folder, dataset_id):
     copy_images_and_masks(val_folder, nnunet_raw_folder, dataset_id)
 
 # Specify your dataset ID (choose an unused ID)
-dataset_id = 13  # You can change this to an unused ID
+dataset_id = 11   # You can change this to an unused ID
 
 # Copy images and masks from the "train" folder
 copy_images_and_masks(os.path.join(data_folder, 'segmentation', 'train'), nnunet_raw_folder, dataset_id)

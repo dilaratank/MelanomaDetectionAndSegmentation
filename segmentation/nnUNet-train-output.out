@@ -1,0 +1,920 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 128 cases in the source folder
+I am process 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 128 cases that I would like to predict
+
+Predicting Dataset011_Melanoma_1920:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.46s/it]100%|██████████| 1/1 [00:02<00:00,  2.46s/it]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1920
+
+Predicting Dataset011_Melanoma_1921:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.91it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1921
+
+Predicting Dataset011_Melanoma_1922:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.35it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1922
+
+Predicting Dataset011_Melanoma_1923:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.05it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1923
+
+Predicting Dataset011_Melanoma_1924:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.27it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1924
+
+Predicting Dataset011_Melanoma_1925:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1925
+
+Predicting Dataset011_Melanoma_1926:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.15it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1926
+
+Predicting Dataset011_Melanoma_1927:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1927
+
+Predicting Dataset011_Melanoma_1928:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1928
+
+Predicting Dataset011_Melanoma_1929:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 33.00it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1929
+
+Predicting Dataset011_Melanoma_1930:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.42it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1930
+
+Predicting Dataset011_Melanoma_1931:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.39it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1931
+
+Predicting Dataset011_Melanoma_1932:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1932
+
+Predicting Dataset011_Melanoma_1933:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.26it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1933
+
+Predicting Dataset011_Melanoma_1934:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.19it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1934
+
+Predicting Dataset011_Melanoma_1935:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.27it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1935
+
+Predicting Dataset011_Melanoma_1936:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.10it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1936
+
+Predicting Dataset011_Melanoma_1937:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.03it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1937
+
+Predicting Dataset011_Melanoma_1938:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1938
+
+Predicting Dataset011_Melanoma_1939:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1939
+
+Predicting Dataset011_Melanoma_1940:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1940
+
+Predicting Dataset011_Melanoma_1941:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.38it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1941
+
+Predicting Dataset011_Melanoma_1942:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 34.62it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1942
+
+Predicting Dataset011_Melanoma_1943:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1943
+
+Predicting Dataset011_Melanoma_1944:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 40.73it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1944
+
+Predicting Dataset011_Melanoma_1945:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.26it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1945
+
+Predicting Dataset011_Melanoma_1946:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.26it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1946
+
+Predicting Dataset011_Melanoma_1947:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.11it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1947
+
+Predicting Dataset011_Melanoma_1948:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.22it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1948
+
+Predicting Dataset011_Melanoma_1949:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.26it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1949
+
+Predicting Dataset011_Melanoma_1950:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.33it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1950
+
+Predicting Dataset011_Melanoma_1951:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.42it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1951
+
+Predicting Dataset011_Melanoma_1952:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.33it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1952
+
+Predicting Dataset011_Melanoma_1953:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.28it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1953
+
+Predicting Dataset011_Melanoma_1954:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1954
+
+Predicting Dataset011_Melanoma_1955:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.21it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1955
+
+Predicting Dataset011_Melanoma_1956:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.13it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1956
+
+Predicting Dataset011_Melanoma_1957:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.33it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1957
+
+Predicting Dataset011_Melanoma_1958:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1958
+
+Predicting Dataset011_Melanoma_1959:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.30it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1959
+
+Predicting Dataset011_Melanoma_1960:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1960
+
+Predicting Dataset011_Melanoma_1961:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1961
+
+Predicting Dataset011_Melanoma_1962:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1962
+
+Predicting Dataset011_Melanoma_1963:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1963
+
+Predicting Dataset011_Melanoma_1964:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.31it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1964
+
+Predicting Dataset011_Melanoma_1965:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 17.93it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1965
+
+Predicting Dataset011_Melanoma_1966:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.21it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1966
+
+Predicting Dataset011_Melanoma_1967:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.16it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1967
+
+Predicting Dataset011_Melanoma_1968:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.21it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1968
+
+Predicting Dataset011_Melanoma_1969:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1969
+
+Predicting Dataset011_Melanoma_1970:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1970
+
+Predicting Dataset011_Melanoma_1971:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.30it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1971
+
+Predicting Dataset011_Melanoma_1972:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 40.65it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1972
+
+Predicting Dataset011_Melanoma_1973:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.19it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1973
+
+Predicting Dataset011_Melanoma_1974:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.20it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1974
+
+Predicting Dataset011_Melanoma_1975:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1975
+
+Predicting Dataset011_Melanoma_1976:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.39it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1976
+
+Predicting Dataset011_Melanoma_1977:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.27it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1977
+
+Predicting Dataset011_Melanoma_1978:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.18it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1978
+
+Predicting Dataset011_Melanoma_1979:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.02it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1979
+
+Predicting Dataset011_Melanoma_1980:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 32.68it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1980
+
+Predicting Dataset011_Melanoma_1981:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1981
+
+Predicting Dataset011_Melanoma_1982:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.14it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1982
+
+Predicting Dataset011_Melanoma_1983:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.15it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1983
+
+Predicting Dataset011_Melanoma_1984:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1984
+
+Predicting Dataset011_Melanoma_1985:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.29it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1985
+
+Predicting Dataset011_Melanoma_1986:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.35it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1986
+
+Predicting Dataset011_Melanoma_1987:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.32it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1987
+
+Predicting Dataset011_Melanoma_1988:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 20.12it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1988
+
+Predicting Dataset011_Melanoma_1989:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.29it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1989
+
+Predicting Dataset011_Melanoma_1990:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.15it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1990
+
+Predicting Dataset011_Melanoma_1991:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.38it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1991
+
+Predicting Dataset011_Melanoma_1992:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.18it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1992
+
+Predicting Dataset011_Melanoma_1993:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.16it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1993
+
+Predicting Dataset011_Melanoma_1994:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1994
+
+Predicting Dataset011_Melanoma_1995:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 33.21it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1995
+
+Predicting Dataset011_Melanoma_1996:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1996
+
+Predicting Dataset011_Melanoma_1997:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1997
+
+Predicting Dataset011_Melanoma_1998:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.36it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1998
+
+Predicting Dataset011_Melanoma_1999:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.20it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_1999
+
+Predicting Dataset011_Melanoma_2000:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 40.78it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2000
+
+Predicting Dataset011_Melanoma_2001:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.10it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2001
+
+Predicting Dataset011_Melanoma_2002:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.13it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2002
+
+Predicting Dataset011_Melanoma_2003:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.29it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2003
+
+Predicting Dataset011_Melanoma_2004:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.25it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2004
+
+Predicting Dataset011_Melanoma_2005:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.20it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2005
+
+Predicting Dataset011_Melanoma_2006:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.17it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2006
+
+Predicting Dataset011_Melanoma_2007:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.28it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2007
+
+Predicting Dataset011_Melanoma_2008:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.13it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2008
+
+Predicting Dataset011_Melanoma_2009:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.32it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2009
+
+Predicting Dataset011_Melanoma_2010:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.14it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2010
+
+Predicting Dataset011_Melanoma_2011:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 20.23it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2011
+
+Predicting Dataset011_Melanoma_2012:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.09it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2012
+
+Predicting Dataset011_Melanoma_2013:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.93it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2013
+
+Predicting Dataset011_Melanoma_2014:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.22it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2014
+
+Predicting Dataset011_Melanoma_2015:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.22it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2015
+
+Predicting Dataset011_Melanoma_2016:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.21it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2016
+
+Predicting Dataset011_Melanoma_2017:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.39it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2017
+
+Predicting Dataset011_Melanoma_2018:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.28it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2018
+
+Predicting Dataset011_Melanoma_2019:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.22it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2019
+
+Predicting Dataset011_Melanoma_2020:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.33it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2020
+
+Predicting Dataset011_Melanoma_2021:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.27it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2021
+
+Predicting Dataset011_Melanoma_2022:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2022
+
+Predicting Dataset011_Melanoma_2023:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.27it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2023
+
+Predicting Dataset011_Melanoma_2024:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.33it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2024
+
+Predicting Dataset011_Melanoma_2025:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.26it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2025
+
+Predicting Dataset011_Melanoma_2026:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.30it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2026
+
+Predicting Dataset011_Melanoma_2027:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.16it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2027
+
+Predicting Dataset011_Melanoma_2028:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 40.77it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2028
+
+Predicting Dataset011_Melanoma_2029:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.20it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2029
+
+Predicting Dataset011_Melanoma_2030:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.19it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2030
+
+Predicting Dataset011_Melanoma_2031:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.26it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2031
+
+Predicting Dataset011_Melanoma_2032:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.19it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2032
+
+Predicting Dataset011_Melanoma_2033:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43.42it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2033
+
+Predicting Dataset011_Melanoma_2034:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 21.33it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2034
+
+Predicting Dataset011_Melanoma_2035:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 36.42it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2035
+
+Predicting Dataset011_Melanoma_2036:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.62it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2036
+
+Predicting Dataset011_Melanoma_2037:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.65it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2037
+
+Predicting Dataset011_Melanoma_2038:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.64it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2038
+
+Predicting Dataset011_Melanoma_2039:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.58it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2039
+
+Predicting Dataset011_Melanoma_2040:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.78it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2040
+
+Predicting Dataset011_Melanoma_2041:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.57it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2041
+
+Predicting Dataset011_Melanoma_2042:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.45it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2042
+
+Predicting Dataset011_Melanoma_2043:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.31it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2043
+
+Predicting Dataset011_Melanoma_2044:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 41.88it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2044
+
+Predicting Dataset011_Melanoma_2045:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 41.87it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2045
+
+Predicting Dataset011_Melanoma_2046:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.24it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2046
+
+Predicting Dataset011_Melanoma_2047:
+perform_everything_on_gpu: True
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42.66it/s]
+Prediction done, transferring to CPU if needed
+sending off prediction to background worker for resampling and export
+done with Dataset011_Melanoma_2047
+
+JOB STATISTICS
+==============
+Job ID: 4257478
+Cluster: snellius
+User/Group: scur0404/scur0404
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:11:42 core-walltime
+Job Wall-clock time: 00:00:39
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

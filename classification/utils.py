@@ -1,3 +1,6 @@
+'''
+Code copied from Notebook provided by pracitcal.
+'''
 import os
 import glob
 import numpy as np

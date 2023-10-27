@@ -15,7 +15,7 @@ module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
 wandb login a183cb44e1857d72ebd9118c7ffde2ac50957d5e
-#wandb agent treye-again/moley-business/n4p9vk87
+#wandb agent treye-again/moley-business/n4p9vk87 # sweep command
 
-# Execute program located in $HOME and redirect outputs to the log file
+# Execute program 
 srun python train_classifier.py

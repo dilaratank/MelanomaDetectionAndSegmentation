@@ -1,5 +1,8 @@
+'''
+Code copied from Notebook provided by pracitcal.
+We changed the tensorboard logger to a wandb logger. 
+'''
 from datasets import Scan_DataModule
-#from utils import Classifier
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 import torch

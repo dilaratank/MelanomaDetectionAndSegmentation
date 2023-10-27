@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --job-name=nnunettrain
+#SBATCH --job-name=inference
 #SBATCH --cpus-per-task=8
 #SBATCH --time=20:00:00
 #SBATCH --mem=32000M
@@ -21,13 +21,9 @@ export nnUNet_results="/home/scur0404/projects/MelanomaDetectionAndSegmentation/
 cd /home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet
 
 # Execute program located in $HOME and redirect outputs to the log file
-nnUNetv2_train 13 2d all
 
+# train
+#nnUNetv2_train 11 2d all
 
-# nnUNetv2_train 11 2d 1
-# srun python train_classifier.py --batch_size=64 --lr=0.02 --freeze_until_layer=5
-
-
-# nnUNetv2_predict -i /home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_raw/Dataset012_Melanoma -o /home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/try_results -d 12 -c 2d
-
-# nnUNetTrainer_5epochs
+# inference
+nnUNetv2_predict -i /home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_set -o /home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds -d 11 -c 2d -f all
