@@ -49,7 +49,7 @@ def get_config(args):
         'model_name'     : 'resnet18',
         'optimizer_name' : 'sgd',
         'bin'            : 'models/',
-        'experiment_name': 'resnet18',
+        'experiment_name': 'resnet',
         'num_workers'    :  8,
         'freeze_until_layer': args.freeze_until_layer
     }

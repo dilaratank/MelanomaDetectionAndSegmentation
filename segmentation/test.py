@@ -33,7 +33,7 @@ from torch.utils.data import DataLoader, Dataset
 import pytorch_lightning as pl
 from models import UNet
 
-data_dir = '/home/scur0404/projects/MelanomaDetectionAndSegmentation/data/segmentation/'
+data_dir = '/home/scur0404/projects/MelanomaDetectionAndSegmentation/data_processed/segmentation/'
 
 test_data_dir = os.path.join(data_dir, 'val')
 

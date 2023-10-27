@@ -1,0 +1,40 @@
+wandb: Downloading large artifact model-ja2a9lfp:best, 1165.97MB. 1 files... 
+wandb:   1 of 1 files downloaded.  
+Done. 0:0:24.6
+/home/scur0404/.local/lib/python3.10/site-packages/transformers/models/vit/feature_extraction_vit.py:28: FutureWarning: The class ViTFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use ViTImageProcessor instead.
+  warnings.warn(
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/scur0404/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:67: UserWarning: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+  warning_cache.warn(
+You are using a CUDA device ('NVIDIA A100-SXM4-40GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+SLURM auto-requeueing enabled. Setting signal handlers.
+Testing: 0it [00:00, ?it/s]Testing:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   8%|▊         | 1/13 [00:02<00:33,  2.80s/it]Testing DataLoader 0:  15%|█▌        | 2/13 [00:03<00:16,  1.51s/it]Testing DataLoader 0:  23%|██▎       | 3/13 [00:03<00:10,  1.08s/it]Testing DataLoader 0:  31%|███       | 4/13 [00:03<00:07,  1.16it/s]Testing DataLoader 0:  38%|███▊      | 5/13 [00:03<00:05,  1.37it/s]Testing DataLoader 0:  46%|████▌     | 6/13 [00:03<00:04,  1.56it/s]Testing DataLoader 0:  54%|█████▍    | 7/13 [00:04<00:03,  1.72it/s]Testing DataLoader 0:  62%|██████▏   | 8/13 [00:04<00:02,  1.87it/s]Testing DataLoader 0:  69%|██████▉   | 9/13 [00:04<00:01,  2.01it/s]Testing DataLoader 0:  77%|███████▋  | 10/13 [00:04<00:01,  2.13it/s]Testing DataLoader 0:  85%|████████▍ | 11/13 [00:04<00:00,  2.24it/s]Testing DataLoader 0:  92%|█████████▏| 12/13 [00:05<00:00,  2.35it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:05<00:00,  2.49it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:05<00:00,  2.48it/s]
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃        Test metric        ┃       DataLoader 0        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│         test/acc          │    0.8050000071525574     │
+│          test/f1          │    0.7979949712753296     │
+│         test/loss         │    0.42332297563552856    │
+│      test/precision       │    0.8397819399833679     │
+│        test/recall        │    0.7808823585510254     │
+└───────────────────────────┴───────────────────────────┘
+[{'test/loss': 0.42332297563552856, 'test/acc': 0.8050000071525574, 'test/f1': 0.7979949712753296, 'test/precision': 0.8397819399833679, 'test/recall': 0.7808823585510254}]
+
+JOB STATISTICS
+==============
+Job ID: 4258107
+Cluster: snellius
+User/Group: scur0404/scur0404
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:17:24 core-walltime
+Job Wall-clock time: 00:00:58
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

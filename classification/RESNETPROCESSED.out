@@ -12,29 +12,28 @@ HPU available: False, using: 0 HPUs
 You are using a CUDA device ('NVIDIA A100-SXM4-40GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
 SLURM auto-requeueing enabled. Setting signal handlers.
-Testing: 0it [00:00, ?it/s]Testing:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   8%|▊         | 1/13 [00:01<00:16,  1.38s/it]Testing DataLoader 0:  15%|█▌        | 2/13 [00:01<00:07,  1.42it/s]Testing DataLoader 0:  23%|██▎       | 3/13 [00:01<00:04,  2.10it/s]Testing DataLoader 0:  31%|███       | 4/13 [00:01<00:03,  2.75it/s]Testing DataLoader 0:  38%|███▊      | 5/13 [00:01<00:02,  3.38it/s]Testing DataLoader 0:  46%|████▌     | 6/13 [00:01<00:01,  3.99it/s]Testing DataLoader 0:  54%|█████▍    | 7/13 [00:01<00:01,  4.58it/s]Testing DataLoader 0:  62%|██████▏   | 8/13 [00:01<00:00,  5.14it/s]Testing DataLoader 0:  69%|██████▉   | 9/13 [00:01<00:00,  5.69it/s]Testing DataLoader 0:  77%|███████▋  | 10/13 [00:01<00:00,  6.23it/s]Testing DataLoader 0:  85%|████████▍ | 11/13 [00:01<00:00,  6.74it/s]Testing DataLoader 0:  92%|█████████▏| 12/13 [00:01<00:00,  7.25it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  7.67it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  7.66it/s]
+Testing: 0it [00:00, ?it/s]Testing:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   8%|▊         | 1/13 [00:01<00:16,  1.34s/it]Testing DataLoader 0:  15%|█▌        | 2/13 [00:01<00:07,  1.47it/s]Testing DataLoader 0:  23%|██▎       | 3/13 [00:01<00:04,  2.16it/s]Testing DataLoader 0:  31%|███       | 4/13 [00:01<00:03,  2.83it/s]Testing DataLoader 0:  38%|███▊      | 5/13 [00:01<00:02,  3.47it/s]Testing DataLoader 0:  46%|████▌     | 6/13 [00:01<00:01,  4.10it/s]Testing DataLoader 0:  54%|█████▍    | 7/13 [00:01<00:01,  4.70it/s]Testing DataLoader 0:  62%|██████▏   | 8/13 [00:01<00:00,  5.28it/s]Testing DataLoader 0:  69%|██████▉   | 9/13 [00:01<00:00,  5.84it/s]Testing DataLoader 0:  77%|███████▋  | 10/13 [00:01<00:00,  6.39it/s]Testing DataLoader 0:  85%|████████▍ | 11/13 [00:01<00:00,  6.92it/s]Testing DataLoader 0:  92%|█████████▏| 12/13 [00:01<00:00,  7.43it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  7.86it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  7.85it/s]
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃        Test metric        ┃       DataLoader 0        ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│         test/acc          │    0.7524999976158142     │
-│          test/f1          │    0.7565628290176392     │
-│         test/loss         │    0.4757270812988281     │
-│      test/precision       │    0.7517380714416504     │
-│        test/recall        │    0.7661764621734619     │
+│         test/acc          │    0.8025000095367432     │
+│          test/f1          │     0.797791063785553     │
+│         test/loss         │    0.9949324727058411     │
+│      test/precision       │    0.8149847984313965     │
+│        test/recall        │    0.7902941107749939     │
 └───────────────────────────┴───────────────────────────┘
-[{'test/loss': 0.4757270812988281, 'test/acc': 0.7524999976158142, 'test/f1': 0.7565628290176392, 'test/precision': 0.7517380714416504, 'test/recall': 0.7661764621734619}]
+[{'test/loss': 0.9949324727058411, 'test/acc': 0.8025000095367432, 'test/f1': 0.797791063785553, 'test/precision': 0.8149847984313965, 'test/recall': 0.7902941107749939}]
 
 JOB STATISTICS
 ==============
-Job ID: 4234119
+Job ID: 4258221
 Cluster: snellius
 User/Group: scur0404/scur0404
-State: RUNNING
+State: COMPLETED (exit code 0)
 Nodes: 1
 Cores per node: 18
-CPU Utilized: 00:00:00
-CPU Efficiency: 0.00% of 00:05:24 core-walltime
-Job Wall-clock time: 00:00:18
-Memory Utilized: 0.00 MB (estimated maximum)
-Memory Efficiency: 0.00% of 31.25 GB (31.25 GB/node)
-WARNING: Efficiency statistics may be misleading for RUNNING jobs.
+CPU Utilized: 00:00:21
+CPU Efficiency: 5.30% of 00:06:36 core-walltime
+Job Wall-clock time: 00:00:22
+Memory Utilized: 1.39 MB
+Memory Efficiency: 0.00% of 31.25 GB

@@ -1,0 +1,3364 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8614783300809166,
+        "FN": 1828.96875,
+        "FP": 1537.4375,
+        "IoU": 0.7821217021754008,
+        "TN": 49773.0390625,
+        "TP": 12396.5546875,
+        "n_pred": 13933.9921875,
+        "n_ref": 14225.5234375
+    },
+    "mean": {
+        "0": {
+            "Dice": 0.9534569649795566,
+            "FN": 1537.4375,
+            "FP": 1828.96875,
+            "IoU": 0.9194766214399923,
+            "TN": 12396.5546875,
+            "TP": 49773.0390625,
+            "n_pred": 51602.0078125,
+            "n_ref": 51310.4765625
+        },
+        "1": {
+            "Dice": 0.8614783300809166,
+            "FN": 1828.96875,
+            "FP": 1537.4375,
+            "IoU": 0.7821217021754008,
+            "TN": 49773.0390625,
+            "TP": 12396.5546875,
+            "n_pred": 13933.9921875,
+            "n_ref": 14225.5234375
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.953483382924941,
+                    "FN": 11,
+                    "FP": 4976,
+                    "IoU": 0.9111020000713038,
+                    "TN": 9438,
+                    "TP": 51111,
+                    "n_pred": 56087,
+                    "n_ref": 51122
+                },
+                "1": {
+                    "Dice": 0.7910153794577379,
+                    "FN": 4976,
+                    "FP": 11,
+                    "IoU": 0.6542807625649913,
+                    "TN": 51111,
+                    "TP": 9438,
+                    "n_pred": 9449,
+                    "n_ref": 14414
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1920.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1920.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9934042464089786,
+                    "FN": 404,
+                    "FP": 226,
+                    "IoU": 0.9868949306263392,
+                    "TN": 17463,
+                    "TP": 47443,
+                    "n_pred": 47669,
+                    "n_ref": 47847
+                },
+                "1": {
+                    "Dice": 0.9822814714816065,
+                    "FN": 226,
+                    "FP": 404,
+                    "IoU": 0.9651799038302106,
+                    "TN": 47443,
+                    "TP": 17463,
+                    "n_pred": 17867,
+                    "n_ref": 17689
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1921.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1921.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9580425827584496,
+                    "FN": 364,
+                    "FP": 3863,
+                    "IoU": 0.9194642380825363,
+                    "TN": 13050,
+                    "TP": 48259,
+                    "n_pred": 52122,
+                    "n_ref": 48623
+                },
+                "1": {
+                    "Dice": 0.860619250173113,
+                    "FN": 3863,
+                    "FP": 364,
+                    "IoU": 0.755339468657753,
+                    "TN": 48259,
+                    "TP": 13050,
+                    "n_pred": 13414,
+                    "n_ref": 16913
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1922.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1922.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9968868550431247,
+                    "FN": 82,
+                    "FP": 284,
+                    "IoU": 0.9937930332734118,
+                    "TN": 6570,
+                    "TP": 58600,
+                    "n_pred": 58884,
+                    "n_ref": 58682
+                },
+                "1": {
+                    "Dice": 0.9729009329187028,
+                    "FN": 284,
+                    "FP": 82,
+                    "IoU": 0.9472318339100346,
+                    "TN": 58600,
+                    "TP": 6570,
+                    "n_pred": 6652,
+                    "n_ref": 6854
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1923.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1923.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9766819443979793,
+                    "FN": 2788,
+                    "FP": 0,
+                    "IoU": 0.9544265725120963,
+                    "TN": 4360,
+                    "TP": 58388,
+                    "n_pred": 58388,
+                    "n_ref": 61176
+                },
+                "1": {
+                    "Dice": 0.7577337504344803,
+                    "FN": 0,
+                    "FP": 2788,
+                    "IoU": 0.6099608282036934,
+                    "TN": 58388,
+                    "TP": 4360,
+                    "n_pred": 7148,
+                    "n_ref": 4360
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1924.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1924.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.7350495770035477,
+                    "FN": 14563,
+                    "FP": 0,
+                    "IoU": 0.5810896329536301,
+                    "TN": 30772,
+                    "TP": 20201,
+                    "n_pred": 20201,
+                    "n_ref": 34764
+                },
+                "1": {
+                    "Dice": 0.8086509782280211,
+                    "FN": 0,
+                    "FP": 14563,
+                    "IoU": 0.6787691628984228,
+                    "TN": 20201,
+                    "TP": 30772,
+                    "n_pred": 45335,
+                    "n_ref": 30772
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1925.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1925.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9384160346337513,
+                    "FN": 710,
+                    "FP": 3017,
+                    "IoU": 0.8839772125891107,
+                    "TN": 33413,
+                    "TP": 28396,
+                    "n_pred": 31413,
+                    "n_ref": 29106
+                },
+                "1": {
+                    "Dice": 0.9471744645869064,
+                    "FN": 3017,
+                    "FP": 710,
+                    "IoU": 0.899649973074852,
+                    "TN": 28396,
+                    "TP": 33413,
+                    "n_pred": 34123,
+                    "n_ref": 36430
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1926.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1926.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9962008279809871,
+                    "FN": 431,
+                    "FP": 15,
+                    "IoU": 0.9924304141208418,
+                    "TN": 6616,
+                    "TP": 58474,
+                    "n_pred": 58489,
+                    "n_ref": 58905
+                },
+                "1": {
+                    "Dice": 0.967392893697909,
+                    "FN": 15,
+                    "FP": 431,
+                    "IoU": 0.9368450863777966,
+                    "TN": 58474,
+                    "TP": 6616,
+                    "n_pred": 7047,
+                    "n_ref": 6631
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1927.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1927.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9913134784268804,
+                    "FN": 842,
+                    "FP": 250,
+                    "IoU": 0.982776568562506,
+                    "TN": 2134,
+                    "TP": 62310,
+                    "n_pred": 62560,
+                    "n_ref": 63152
+                },
+                "1": {
+                    "Dice": 0.7962686567164179,
+                    "FN": 250,
+                    "FP": 842,
+                    "IoU": 0.6615003099814011,
+                    "TN": 62310,
+                    "TP": 2134,
+                    "n_pred": 2976,
+                    "n_ref": 2384
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1928.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1928.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9811421107382813,
+                    "FN": 0,
+                    "FP": 2411,
+                    "IoU": 0.9629822972163793,
+                    "TN": 405,
+                    "TP": 62720,
+                    "n_pred": 65131,
+                    "n_ref": 62720
+                },
+                "1": {
+                    "Dice": 0.2514746972989755,
+                    "FN": 2411,
+                    "FP": 0,
+                    "IoU": 0.14382102272727273,
+                    "TN": 62720,
+                    "TP": 405,
+                    "n_pred": 405,
+                    "n_ref": 2816
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1929.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1929.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9953315572067558,
+                    "FN": 54,
+                    "FP": 519,
+                    "IoU": 0.9907065005838848,
+                    "TN": 3880,
+                    "TP": 61083,
+                    "n_pred": 61602,
+                    "n_ref": 61137
+                },
+                "1": {
+                    "Dice": 0.9312372494899795,
+                    "FN": 519,
+                    "FP": 54,
+                    "IoU": 0.8713227037951943,
+                    "TN": 61083,
+                    "TP": 3880,
+                    "n_pred": 3934,
+                    "n_ref": 4399
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1930.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1930.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9490426462064426,
+                    "FN": 94,
+                    "FP": 5093,
+                    "IoU": 0.9030267905550674,
+                    "TN": 12047,
+                    "TP": 48302,
+                    "n_pred": 53395,
+                    "n_ref": 48396
+                },
+                "1": {
+                    "Dice": 0.8228544107100167,
+                    "FN": 5093,
+                    "FP": 94,
+                    "IoU": 0.6990251827782291,
+                    "TN": 48302,
+                    "TP": 12047,
+                    "n_pred": 12141,
+                    "n_ref": 17140
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1931.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1931.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9908775473634482,
+                    "FN": 1119,
+                    "FP": 1,
+                    "IoU": 0.9819200284113839,
+                    "TN": 3589,
+                    "TP": 60827,
+                    "n_pred": 60828,
+                    "n_ref": 61946
+                },
+                "1": {
+                    "Dice": 0.8650277175222946,
+                    "FN": 1,
+                    "FP": 1119,
+                    "IoU": 0.7621575706094712,
+                    "TN": 60827,
+                    "TP": 3589,
+                    "n_pred": 4708,
+                    "n_ref": 3590
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1932.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1932.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9974044713480033,
+                    "FN": 231,
+                    "FP": 64,
+                    "IoU": 0.9948223813535524,
+                    "TN": 8560,
+                    "TP": 56681,
+                    "n_pred": 56745,
+                    "n_ref": 56912
+                },
+                "1": {
+                    "Dice": 0.9830605799598048,
+                    "FN": 64,
+                    "FP": 231,
+                    "IoU": 0.9666854884246189,
+                    "TN": 56681,
+                    "TP": 8560,
+                    "n_pred": 8791,
+                    "n_ref": 8624
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1933.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1933.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9980044860391368,
+                    "FN": 160,
+                    "FP": 98,
+                    "IoU": 0.996016920369284,
+                    "TN": 762,
+                    "TP": 64516,
+                    "n_pred": 64614,
+                    "n_ref": 64676
+                },
+                "1": {
+                    "Dice": 0.8552188552188552,
+                    "FN": 98,
+                    "FP": 160,
+                    "IoU": 0.7470588235294118,
+                    "TN": 64516,
+                    "TP": 762,
+                    "n_pred": 922,
+                    "n_ref": 860
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1934.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1934.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.906933692359475,
+                    "FN": 3127,
+                    "FP": 2403,
+                    "IoU": 0.8297151655119323,
+                    "TN": 33061,
+                    "TP": 26945,
+                    "n_pred": 29348,
+                    "n_ref": 30072
+                },
+                "1": {
+                    "Dice": 0.922821414615084,
+                    "FN": 2403,
+                    "FP": 3127,
+                    "IoU": 0.8567023399238164,
+                    "TN": 26945,
+                    "TP": 33061,
+                    "n_pred": 36188,
+                    "n_ref": 35464
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1935.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1935.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.99175033574215,
+                    "FN": 46,
+                    "FP": 857,
+                    "IoU": 0.9836356716985919,
+                    "TN": 10355,
+                    "TP": 54278,
+                    "n_pred": 55135,
+                    "n_ref": 54324
+                },
+                "1": {
+                    "Dice": 0.958219590061537,
+                    "FN": 857,
+                    "FP": 46,
+                    "IoU": 0.9197903712915261,
+                    "TN": 54278,
+                    "TP": 10355,
+                    "n_pred": 10401,
+                    "n_ref": 11212
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1936.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1936.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8560892527891497,
+                    "FN": 9110,
+                    "FP": 100,
+                    "IoU": 0.7483881543000765,
+                    "TN": 28932,
+                    "TP": 27394,
+                    "n_pred": 27494,
+                    "n_ref": 36504
+                },
+                "1": {
+                    "Dice": 0.8626889703909115,
+                    "FN": 100,
+                    "FP": 9110,
+                    "IoU": 0.7585338996381941,
+                    "TN": 27394,
+                    "TP": 28932,
+                    "n_pred": 38042,
+                    "n_ref": 29032
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1937.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1937.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8812938898575295,
+                    "FN": 241,
+                    "FP": 12082,
+                    "IoU": 0.7877796338712177,
+                    "TN": 7469,
+                    "TP": 45744,
+                    "n_pred": 57826,
+                    "n_ref": 45985
+                },
+                "1": {
+                    "Dice": 0.5479622904515609,
+                    "FN": 12082,
+                    "FP": 241,
+                    "IoU": 0.377374696847211,
+                    "TN": 45744,
+                    "TP": 7469,
+                    "n_pred": 7710,
+                    "n_ref": 19551
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1938.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1938.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9940728994120002,
+                    "FN": 0,
+                    "FP": 755,
+                    "IoU": 0.9882156458762564,
+                    "TN": 1468,
+                    "TP": 63313,
+                    "n_pred": 64068,
+                    "n_ref": 63313
+                },
+                "1": {
+                    "Dice": 0.7954483879707397,
+                    "FN": 755,
+                    "FP": 0,
+                    "IoU": 0.6603688708951867,
+                    "TN": 63313,
+                    "TP": 1468,
+                    "n_pred": 1468,
+                    "n_ref": 2223
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1939.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1939.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9675552966229383,
+                    "FN": 511,
+                    "FP": 1104,
+                    "IoU": 0.9371497509339975,
+                    "TN": 39840,
+                    "TP": 24081,
+                    "n_pred": 25185,
+                    "n_ref": 24592
+                },
+                "1": {
+                    "Dice": 0.9801340795866904,
+                    "FN": 1104,
+                    "FP": 511,
+                    "IoU": 0.9610420938366904,
+                    "TN": 24081,
+                    "TP": 39840,
+                    "n_pred": 40351,
+                    "n_ref": 40944
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1940.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1940.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9953061454130431,
+                    "FN": 578,
+                    "FP": 6,
+                    "IoU": 0.990656149501608,
+                    "TN": 3035,
+                    "TP": 61917,
+                    "n_pred": 61923,
+                    "n_ref": 62495
+                },
+                "1": {
+                    "Dice": 0.9122332431620078,
+                    "FN": 6,
+                    "FP": 578,
+                    "IoU": 0.8386294556507322,
+                    "TN": 61917,
+                    "TP": 3035,
+                    "n_pred": 3613,
+                    "n_ref": 3041
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1941.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1941.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9946938030917123,
+                    "FN": 435,
+                    "FP": 234,
+                    "IoU": 0.9894436204121564,
+                    "TN": 2162,
+                    "TP": 62705,
+                    "n_pred": 62939,
+                    "n_ref": 63140
+                },
+                "1": {
+                    "Dice": 0.8660124173843381,
+                    "FN": 234,
+                    "FP": 435,
+                    "IoU": 0.7636877428470505,
+                    "TN": 62705,
+                    "TP": 2162,
+                    "n_pred": 2597,
+                    "n_ref": 2396
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1942.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1942.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9622170658027231,
+                    "FN": 164,
+                    "FP": 3288,
+                    "IoU": 0.9271852851839352,
+                    "TN": 18128,
+                    "TP": 43956,
+                    "n_pred": 47244,
+                    "n_ref": 44120
+                },
+                "1": {
+                    "Dice": 0.9130653772539539,
+                    "FN": 3288,
+                    "FP": 164,
+                    "IoU": 0.8400370713623726,
+                    "TN": 43956,
+                    "TP": 18128,
+                    "n_pred": 18292,
+                    "n_ref": 21416
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1943.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1943.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9511125847332744,
+                    "FN": 179,
+                    "FP": 2475,
+                    "IoU": 0.9067823399248358,
+                    "TN": 37065,
+                    "TP": 25817,
+                    "n_pred": 28292,
+                    "n_ref": 25996
+                },
+                "1": {
+                    "Dice": 0.9654355073973745,
+                    "FN": 2475,
+                    "FP": 179,
+                    "IoU": 0.9331805936705355,
+                    "TN": 25817,
+                    "TP": 37065,
+                    "n_pred": 37244,
+                    "n_ref": 39540
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1944.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1944.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9901646187159219,
+                    "FN": 1131,
+                    "FP": 0,
+                    "IoU": 0.980520822568978,
+                    "TN": 7474,
+                    "TP": 56931,
+                    "n_pred": 56931,
+                    "n_ref": 58062
+                },
+                "1": {
+                    "Dice": 0.9296598047142235,
+                    "FN": 0,
+                    "FP": 1131,
+                    "IoU": 0.8685647879140035,
+                    "TN": 56931,
+                    "TP": 7474,
+                    "n_pred": 8605,
+                    "n_ref": 7474
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1945.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1945.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9827517226050233,
+                    "FN": 384,
+                    "FP": 1168,
+                    "IoU": 0.9660883625398767,
+                    "TN": 19770,
+                    "TP": 44214,
+                    "n_pred": 45382,
+                    "n_ref": 44598
+                },
+                "1": {
+                    "Dice": 0.9622310912099679,
+                    "FN": 1168,
+                    "FP": 384,
+                    "IoU": 0.9272113310196042,
+                    "TN": 44214,
+                    "TP": 19770,
+                    "n_pred": 20154,
+                    "n_ref": 20938
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1946.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1946.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9412884675163196,
+                    "FN": 2989,
+                    "FP": 33,
+                    "IoU": 0.8890887070136162,
+                    "TN": 38289,
+                    "TP": 24225,
+                    "n_pred": 24258,
+                    "n_ref": 27214
+                },
+                "1": {
+                    "Dice": 0.962035175879397,
+                    "FN": 33,
+                    "FP": 2989,
+                    "IoU": 0.9268475708649028,
+                    "TN": 24225,
+                    "TP": 38289,
+                    "n_pred": 41278,
+                    "n_ref": 38322
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1947.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1947.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9961297856368337,
+                    "FN": 439,
+                    "FP": 25,
+                    "IoU": 0.9922894128986157,
+                    "TN": 5359,
+                    "TP": 59713,
+                    "n_pred": 59738,
+                    "n_ref": 60152
+                },
+                "1": {
+                    "Dice": 0.9585047397603291,
+                    "FN": 25,
+                    "FP": 439,
+                    "IoU": 0.9203159883221707,
+                    "TN": 59713,
+                    "TP": 5359,
+                    "n_pred": 5798,
+                    "n_ref": 5384
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1948.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1948.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9951627876675516,
+                    "FN": 562,
+                    "FP": 32,
+                    "IoU": 0.9903721473029046,
+                    "TN": 3840,
+                    "TP": 61102,
+                    "n_pred": 61134,
+                    "n_ref": 61664
+                },
+                "1": {
+                    "Dice": 0.9282088469905729,
+                    "FN": 32,
+                    "FP": 562,
+                    "IoU": 0.8660351826792964,
+                    "TN": 61102,
+                    "TP": 3840,
+                    "n_pred": 4402,
+                    "n_ref": 3872
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1949.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1949.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9929924781646354,
+                    "FN": 740,
+                    "FP": 23,
+                    "IoU": 0.9860824836291338,
+                    "TN": 10713,
+                    "TP": 54060,
+                    "n_pred": 54083,
+                    "n_ref": 54800
+                },
+                "1": {
+                    "Dice": 0.9656135923205191,
+                    "FN": 23,
+                    "FP": 740,
+                    "IoU": 0.9335134193098641,
+                    "TN": 54060,
+                    "TP": 10713,
+                    "n_pred": 11453,
+                    "n_ref": 10736
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1950.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1950.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9721645363518481,
+                    "FN": 2822,
+                    "FP": 33,
+                    "IoU": 0.9458367323708524,
+                    "TN": 12825,
+                    "TP": 49856,
+                    "n_pred": 49889,
+                    "n_ref": 52678
+                },
+                "1": {
+                    "Dice": 0.89984213295913,
+                    "FN": 33,
+                    "FP": 2822,
+                    "IoU": 0.8179209183673469,
+                    "TN": 49856,
+                    "TP": 12825,
+                    "n_pred": 15647,
+                    "n_ref": 12858
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1951.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1951.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.983944170611488,
+                    "FN": 1974,
+                    "FP": 0,
+                    "IoU": 0.9683957732949088,
+                    "TN": 3076,
+                    "TP": 60486,
+                    "n_pred": 60486,
+                    "n_ref": 62460
+                },
+                "1": {
+                    "Dice": 0.7570760521781934,
+                    "FN": 0,
+                    "FP": 1974,
+                    "IoU": 0.6091089108910891,
+                    "TN": 60486,
+                    "TP": 3076,
+                    "n_pred": 5050,
+                    "n_ref": 3076
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1952.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1952.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9992170846091237,
+                    "FN": 100,
+                    "FP": 1,
+                    "IoU": 0.9984353941722306,
+                    "TN": 983,
+                    "TP": 64452,
+                    "n_pred": 64453,
+                    "n_ref": 64552
+                },
+                "1": {
+                    "Dice": 0.9511369134010643,
+                    "FN": 1,
+                    "FP": 100,
+                    "IoU": 0.9068265682656826,
+                    "TN": 64452,
+                    "TP": 983,
+                    "n_pred": 1083,
+                    "n_ref": 984
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1953.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1953.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9675115733532623,
+                    "FN": 3130,
+                    "FP": 0,
+                    "IoU": 0.9370677175486569,
+                    "TN": 15800,
+                    "TP": 46606,
+                    "n_pred": 46606,
+                    "n_ref": 49736
+                },
+                "1": {
+                    "Dice": 0.9098761877339476,
+                    "FN": 0,
+                    "FP": 3130,
+                    "IoU": 0.8346539883782356,
+                    "TN": 46606,
+                    "TP": 15800,
+                    "n_pred": 18930,
+                    "n_ref": 15800
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1954.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1954.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9576647212970987,
+                    "FN": 0,
+                    "FP": 4055,
+                    "IoU": 0.9187684048158016,
+                    "TN": 15617,
+                    "TP": 45864,
+                    "n_pred": 49919,
+                    "n_ref": 45864
+                },
+                "1": {
+                    "Dice": 0.8850916716257191,
+                    "FN": 4055,
+                    "FP": 0,
+                    "IoU": 0.7938694591297275,
+                    "TN": 45864,
+                    "TP": 15617,
+                    "n_pred": 15617,
+                    "n_ref": 19672
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1955.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1955.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9717275985663082,
+                    "FN": 777,
+                    "FP": 1195,
+                    "IoU": 0.9450098993335379,
+                    "TN": 29675,
+                    "TP": 33889,
+                    "n_pred": 35084,
+                    "n_ref": 34666
+                },
+                "1": {
+                    "Dice": 0.9678418838263593,
+                    "FN": 1195,
+                    "FP": 777,
+                    "IoU": 0.9376876165197333,
+                    "TN": 33889,
+                    "TP": 29675,
+                    "n_pred": 30452,
+                    "n_ref": 30870
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1956.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1956.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9914270565683756,
+                    "FN": 995,
+                    "FP": 56,
+                    "IoU": 0.9829998544231111,
+                    "TN": 3713,
+                    "TP": 60772,
+                    "n_pred": 60828,
+                    "n_ref": 61767
+                },
+                "1": {
+                    "Dice": 0.8760174590067241,
+                    "FN": 56,
+                    "FP": 995,
+                    "IoU": 0.7793870696893367,
+                    "TN": 60772,
+                    "TP": 3713,
+                    "n_pred": 4708,
+                    "n_ref": 3769
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1957.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1957.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9955027483204708,
+                    "FN": 128,
+                    "FP": 358,
+                    "IoU": 0.9910457660844573,
+                    "TN": 11260,
+                    "TP": 53790,
+                    "n_pred": 54148,
+                    "n_ref": 53918
+                },
+                "1": {
+                    "Dice": 0.9788750760671129,
+                    "FN": 358,
+                    "FP": 128,
+                    "IoU": 0.9586242124978717,
+                    "TN": 53790,
+                    "TP": 11260,
+                    "n_pred": 11388,
+                    "n_ref": 11618
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1958.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1958.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9992872857983949,
+                    "FN": 68,
+                    "FP": 24,
+                    "IoU": 0.9985755867963089,
+                    "TN": 948,
+                    "TP": 64496,
+                    "n_pred": 64520,
+                    "n_ref": 64564
+                },
+                "1": {
+                    "Dice": 0.9537223340040242,
+                    "FN": 24,
+                    "FP": 68,
+                    "IoU": 0.9115384615384615,
+                    "TN": 64496,
+                    "TP": 948,
+                    "n_pred": 1016,
+                    "n_ref": 972
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1959.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1959.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9900990099009901,
+                    "FN": 2,
+                    "FP": 1159,
+                    "IoU": 0.9803921568627451,
+                    "TN": 6325,
+                    "TP": 58050,
+                    "n_pred": 59209,
+                    "n_ref": 58052
+                },
+                "1": {
+                    "Dice": 0.9159365722974441,
+                    "FN": 1159,
+                    "FP": 2,
+                    "IoU": 0.8449104995992519,
+                    "TN": 58050,
+                    "TP": 6325,
+                    "n_pred": 6327,
+                    "n_ref": 7484
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1960.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1960.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9862574365388624,
+                    "FN": 143,
+                    "FP": 1571,
+                    "IoU": 0.9728874687588978,
+                    "TN": 2318,
+                    "TP": 61504,
+                    "n_pred": 63075,
+                    "n_ref": 61647
+                },
+                "1": {
+                    "Dice": 0.7300787401574803,
+                    "FN": 1571,
+                    "FP": 143,
+                    "IoU": 0.5749007936507936,
+                    "TN": 61504,
+                    "TP": 2318,
+                    "n_pred": 2461,
+                    "n_ref": 3889
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1961.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1961.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9939997900330294,
+                    "FN": 233,
+                    "FP": 510,
+                    "IoU": 0.9880711556369007,
+                    "TN": 3250,
+                    "TP": 61543,
+                    "n_pred": 62053,
+                    "n_ref": 61776
+                },
+                "1": {
+                    "Dice": 0.897418196879746,
+                    "FN": 510,
+                    "FP": 233,
+                    "IoU": 0.813924367643376,
+                    "TN": 61543,
+                    "TP": 3250,
+                    "n_pred": 3483,
+                    "n_ref": 3760
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1962.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1962.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8517914628537983,
+                    "FN": 7,
+                    "FP": 10628,
+                    "IoU": 0.7418438683367318,
+                    "TN": 24340,
+                    "TP": 30561,
+                    "n_pred": 41189,
+                    "n_ref": 30568
+                },
+                "1": {
+                    "Dice": 0.8207030262159656,
+                    "FN": 10628,
+                    "FP": 7,
+                    "IoU": 0.6959256611865619,
+                    "TN": 30561,
+                    "TP": 24340,
+                    "n_pred": 24347,
+                    "n_ref": 34968
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1963.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1963.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8112185038270294,
+                    "FN": 3636,
+                    "FP": 3122,
+                    "IoU": 0.6823949619325125,
+                    "TN": 44258,
+                    "TP": 14520,
+                    "n_pred": 17642,
+                    "n_ref": 18156
+                },
+                "1": {
+                    "Dice": 0.929067741461469,
+                    "FN": 3122,
+                    "FP": 3636,
+                    "IoU": 0.8675317547436099,
+                    "TN": 14520,
+                    "TP": 44258,
+                    "n_pred": 47894,
+                    "n_ref": 47380
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1964.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1964.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9859500465431895,
+                    "FN": 4,
+                    "FP": 1611,
+                    "IoU": 0.9722894253701893,
+                    "TN": 7255,
+                    "TP": 56666,
+                    "n_pred": 58277,
+                    "n_ref": 56670
+                },
+                "1": {
+                    "Dice": 0.8998449612403101,
+                    "FN": 1611,
+                    "FP": 4,
+                    "IoU": 0.8179255918827508,
+                    "TN": 56666,
+                    "TP": 7255,
+                    "n_pred": 7259,
+                    "n_ref": 8866
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1965.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1965.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9943594003401764,
+                    "FN": 706,
+                    "FP": 7,
+                    "IoU": 0.9887820764958543,
+                    "TN": 1977,
+                    "TP": 62846,
+                    "n_pred": 62853,
+                    "n_ref": 63552
+                },
+                "1": {
+                    "Dice": 0.8472251982001285,
+                    "FN": 7,
+                    "FP": 706,
+                    "IoU": 0.7349442379182156,
+                    "TN": 62846,
+                    "TP": 1977,
+                    "n_pred": 2683,
+                    "n_ref": 1984
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1966.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1966.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9305705059203444,
+                    "FN": 4749,
+                    "FP": 669,
+                    "IoU": 0.8701560140915954,
+                    "TN": 23809,
+                    "TP": 36309,
+                    "n_pred": 36978,
+                    "n_ref": 41058
+                },
+                "1": {
+                    "Dice": 0.8978429745833019,
+                    "FN": 669,
+                    "FP": 4749,
+                    "IoU": 0.8146234646046464,
+                    "TN": 36309,
+                    "TP": 23809,
+                    "n_pred": 28558,
+                    "n_ref": 24478
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1967.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1967.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9975720839891498,
+                    "FN": 141,
+                    "FP": 149,
+                    "IoU": 0.9951559289758966,
+                    "TN": 5669,
+                    "TP": 59577,
+                    "n_pred": 59726,
+                    "n_ref": 59718
+                },
+                "1": {
+                    "Dice": 0.9750601995184038,
+                    "FN": 149,
+                    "FP": 141,
+                    "IoU": 0.9513341164624937,
+                    "TN": 59577,
+                    "TP": 5669,
+                    "n_pred": 5810,
+                    "n_ref": 5818
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1968.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1968.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9541624016714108,
+                    "FN": 1119,
+                    "FP": 2150,
+                    "IoU": 0.9123427989166868,
+                    "TN": 28243,
+                    "TP": 34024,
+                    "n_pred": 36174,
+                    "n_ref": 35143
+                },
+                "1": {
+                    "Dice": 0.945293280896996,
+                    "FN": 2150,
+                    "FP": 1119,
+                    "IoU": 0.8962617415587713,
+                    "TN": 34024,
+                    "TP": 28243,
+                    "n_pred": 29362,
+                    "n_ref": 30393
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1969.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1969.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.986095212174094,
+                    "FN": 0,
+                    "FP": 1737,
+                    "IoU": 0.9725718075447267,
+                    "TN": 2207,
+                    "TP": 61592,
+                    "n_pred": 63329,
+                    "n_ref": 61592
+                },
+                "1": {
+                    "Dice": 0.7176068931880994,
+                    "FN": 1737,
+                    "FP": 0,
+                    "IoU": 0.5595841784989858,
+                    "TN": 61592,
+                    "TP": 2207,
+                    "n_pred": 2207,
+                    "n_ref": 3944
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1970.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1970.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9243232762617705,
+                    "FN": 8977,
+                    "FP": 0,
+                    "IoU": 0.859294670846395,
+                    "TN": 1736,
+                    "TP": 54823,
+                    "n_pred": 54823,
+                    "n_ref": 63800
+                },
+                "1": {
+                    "Dice": 0.2788979034460599,
+                    "FN": 0,
+                    "FP": 8977,
+                    "IoU": 0.16204611220013068,
+                    "TN": 54823,
+                    "TP": 1736,
+                    "n_pred": 10713,
+                    "n_ref": 1736
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1971.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1971.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8955250002734662,
+                    "FN": 0,
+                    "FP": 9551,
+                    "IoU": 0.8108150935921561,
+                    "TN": 15051,
+                    "TP": 40934,
+                    "n_pred": 50485,
+                    "n_ref": 40934
+                },
+                "1": {
+                    "Dice": 0.7591355004665473,
+                    "FN": 9551,
+                    "FP": 0,
+                    "IoU": 0.6117795301195025,
+                    "TN": 40934,
+                    "TP": 15051,
+                    "n_pred": 15051,
+                    "n_ref": 24602
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1972.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1972.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.584258519518444,
+                    "FN": 15086,
+                    "FP": 5,
+                    "IoU": 0.4126872932477136,
+                    "TN": 39841,
+                    "TP": 10604,
+                    "n_pred": 10609,
+                    "n_ref": 25690
+                },
+                "1": {
+                    "Dice": 0.8407668850833043,
+                    "FN": 5,
+                    "FP": 15086,
+                    "IoU": 0.7252785261778198,
+                    "TN": 10604,
+                    "TP": 39841,
+                    "n_pred": 54927,
+                    "n_ref": 39846
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1973.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1973.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9818978334146702,
+                    "FN": 1579,
+                    "FP": 16,
+                    "IoU": 0.9644393908991594,
+                    "TN": 20683,
+                    "TP": 43258,
+                    "n_pred": 43274,
+                    "n_ref": 44837
+                },
+                "1": {
+                    "Dice": 0.9628733036940481,
+                    "FN": 16,
+                    "FP": 1579,
+                    "IoU": 0.9284047041924769,
+                    "TN": 43258,
+                    "TP": 20683,
+                    "n_pred": 22262,
+                    "n_ref": 20699
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1974.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1974.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9886140423975986,
+                    "FN": 612,
+                    "FP": 727,
+                    "IoU": 0.977484445939129,
+                    "TN": 6066,
+                    "TP": 58131,
+                    "n_pred": 58858,
+                    "n_ref": 58743
+                },
+                "1": {
+                    "Dice": 0.9006012916635736,
+                    "FN": 727,
+                    "FP": 612,
+                    "IoU": 0.8191762322754895,
+                    "TN": 58131,
+                    "TP": 6066,
+                    "n_pred": 6678,
+                    "n_ref": 6793
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1975.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1975.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9932118041654434,
+                    "FN": 747,
+                    "FP": 16,
+                    "IoU": 0.986515146159556,
+                    "TN": 8954,
+                    "TP": 55819,
+                    "n_pred": 55835,
+                    "n_ref": 56566
+                },
+                "1": {
+                    "Dice": 0.9591344866370307,
+                    "FN": 16,
+                    "FP": 747,
+                    "IoU": 0.9214778223731604,
+                    "TN": 55819,
+                    "TP": 8954,
+                    "n_pred": 9701,
+                    "n_ref": 8970
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1976.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1976.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9971904700744927,
+                    "FN": 40,
+                    "FP": 310,
+                    "IoU": 0.994396682836239,
+                    "TN": 3073,
+                    "TP": 62113,
+                    "n_pred": 62423,
+                    "n_ref": 62153
+                },
+                "1": {
+                    "Dice": 0.9461206896551724,
+                    "FN": 310,
+                    "FP": 40,
+                    "IoU": 0.8977505112474438,
+                    "TN": 62113,
+                    "TP": 3073,
+                    "n_pred": 3113,
+                    "n_ref": 3383
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1977.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1977.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9941694141729377,
+                    "FN": 655,
+                    "FP": 40,
+                    "IoU": 0.9884064256760138,
+                    "TN": 5589,
+                    "TP": 59252,
+                    "n_pred": 59292,
+                    "n_ref": 59907
+                },
+                "1": {
+                    "Dice": 0.9414638254863977,
+                    "FN": 40,
+                    "FP": 655,
+                    "IoU": 0.8894016549968173,
+                    "TN": 59252,
+                    "TP": 5589,
+                    "n_pred": 6244,
+                    "n_ref": 5629
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1978.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1978.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9986287738103633,
+                    "FN": 64,
+                    "FP": 111,
+                    "IoU": 0.9972613029937871,
+                    "TN": 1637,
+                    "TP": 63724,
+                    "n_pred": 63835,
+                    "n_ref": 63788
+                },
+                "1": {
+                    "Dice": 0.9492606552623949,
+                    "FN": 111,
+                    "FP": 64,
+                    "IoU": 0.9034216335540839,
+                    "TN": 63724,
+                    "TP": 1637,
+                    "n_pred": 1701,
+                    "n_ref": 1748
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1979.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1979.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9453736075676924,
+                    "FN": 245,
+                    "FP": 4958,
+                    "IoU": 0.8964061722249875,
+                    "TN": 15311,
+                    "TP": 45022,
+                    "n_pred": 49980,
+                    "n_ref": 45267
+                },
+                "1": {
+                    "Dice": 0.8547662247034195,
+                    "FN": 4958,
+                    "FP": 245,
+                    "IoU": 0.7463683338208053,
+                    "TN": 45022,
+                    "TP": 15311,
+                    "n_pred": 15556,
+                    "n_ref": 20269
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1980.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1980.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9996598376497874,
+                    "FN": 21,
+                    "FP": 23,
+                    "IoU": 0.9993199066417299,
+                    "TN": 839,
+                    "TP": 64653,
+                    "n_pred": 64676,
+                    "n_ref": 64674
+                },
+                "1": {
+                    "Dice": 0.9744483159117305,
+                    "FN": 23,
+                    "FP": 21,
+                    "IoU": 0.9501698754246886,
+                    "TN": 64653,
+                    "TP": 839,
+                    "n_pred": 860,
+                    "n_ref": 862
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1981.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1981.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.7283630179897969,
+                    "FN": 0,
+                    "FP": 9105,
+                    "IoU": 0.5727759009009009,
+                    "TN": 44224,
+                    "TP": 12207,
+                    "n_pred": 21312,
+                    "n_ref": 12207
+                },
+                "1": {
+                    "Dice": 0.9066661199553063,
+                    "FN": 9105,
+                    "FP": 0,
+                    "IoU": 0.8292673779744604,
+                    "TN": 12207,
+                    "TP": 44224,
+                    "n_pred": 44224,
+                    "n_ref": 53329
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1982.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1982.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9453999138501623,
+                    "FN": 5045,
+                    "FP": 152,
+                    "IoU": 0.8964534767882049,
+                    "TN": 15346,
+                    "TP": 44993,
+                    "n_pred": 45145,
+                    "n_ref": 50038
+                },
+                "1": {
+                    "Dice": 0.8551923987851431,
+                    "FN": 152,
+                    "FP": 5045,
+                    "IoU": 0.7470184491067516,
+                    "TN": 44993,
+                    "TP": 15346,
+                    "n_pred": 20391,
+                    "n_ref": 15498
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1983.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1983.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9796128379233268,
+                    "FN": 2387,
+                    "FP": 30,
+                    "IoU": 0.9600403399133683,
+                    "TN": 5050,
+                    "TP": 58069,
+                    "n_pred": 58099,
+                    "n_ref": 60456
+                },
+                "1": {
+                    "Dice": 0.806902612447072,
+                    "FN": 30,
+                    "FP": 2387,
+                    "IoU": 0.6763090933440471,
+                    "TN": 58069,
+                    "TP": 5050,
+                    "n_pred": 7437,
+                    "n_ref": 5080
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1984.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1984.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.992362755304154,
+                    "FN": 123,
+                    "FP": 706,
+                    "IoU": 0.984841281451141,
+                    "TN": 10848,
+                    "TP": 53859,
+                    "n_pred": 54565,
+                    "n_ref": 53982
+                },
+                "1": {
+                    "Dice": 0.963196448390677,
+                    "FN": 706,
+                    "FP": 123,
+                    "IoU": 0.9290057377751134,
+                    "TN": 53859,
+                    "TP": 10848,
+                    "n_pred": 10971,
+                    "n_ref": 11554
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1985.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1985.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9914399721840489,
+                    "FN": 1034,
+                    "FP": 0,
+                    "IoU": 0.9830252487112979,
+                    "TN": 4622,
+                    "TP": 59880,
+                    "n_pred": 59880,
+                    "n_ref": 60914
+                },
+                "1": {
+                    "Dice": 0.899396769799572,
+                    "FN": 0,
+                    "FP": 1034,
+                    "IoU": 0.8171852899575672,
+                    "TN": 59880,
+                    "TP": 4622,
+                    "n_pred": 5656,
+                    "n_ref": 4622
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1986.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1986.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9103444678224278,
+                    "FN": 4095,
+                    "FP": 6217,
+                    "IoU": 0.8354424319795739,
+                    "TN": 2871,
+                    "TP": 52353,
+                    "n_pred": 58570,
+                    "n_ref": 56448
+                },
+                "1": {
+                    "Dice": 0.3576678709355924,
+                    "FN": 6217,
+                    "FP": 4095,
+                    "IoU": 0.2177804748539786,
+                    "TN": 52353,
+                    "TP": 2871,
+                    "n_pred": 6966,
+                    "n_ref": 9088
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1987.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1987.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9968016793249642,
+                    "FN": 135,
+                    "FP": 252,
+                    "IoU": 0.993623751935941,
+                    "TN": 4842,
+                    "TP": 60307,
+                    "n_pred": 60559,
+                    "n_ref": 60442
+                },
+                "1": {
+                    "Dice": 0.9615728328865059,
+                    "FN": 252,
+                    "FP": 135,
+                    "IoU": 0.9259896729776248,
+                    "TN": 60307,
+                    "TP": 4842,
+                    "n_pred": 4977,
+                    "n_ref": 5094
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1988.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1988.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9940587417948349,
+                    "FN": 91,
+                    "FP": 653,
+                    "IoU": 0.9881876637294594,
+                    "TN": 2551,
+                    "TP": 62241,
+                    "n_pred": 62894,
+                    "n_ref": 62332
+                },
+                "1": {
+                    "Dice": 0.8727334929866576,
+                    "FN": 653,
+                    "FP": 91,
+                    "IoU": 0.7742033383915022,
+                    "TN": 62241,
+                    "TP": 2551,
+                    "n_pred": 2642,
+                    "n_ref": 3204
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1989.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1989.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9957829785680382,
+                    "FN": 99,
+                    "FP": 363,
+                    "IoU": 0.9916013743205657,
+                    "TN": 10527,
+                    "TP": 54547,
+                    "n_pred": 54910,
+                    "n_ref": 54646
+                },
+                "1": {
+                    "Dice": 0.9785276073619632,
+                    "FN": 363,
+                    "FP": 99,
+                    "IoU": 0.9579579579579579,
+                    "TN": 54547,
+                    "TP": 10527,
+                    "n_pred": 10626,
+                    "n_ref": 10890
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1990.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1990.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9771018717397975,
+                    "FN": 2388,
+                    "FP": 0,
+                    "IoU": 0.9552289174697214,
+                    "TN": 12198,
+                    "TP": 50950,
+                    "n_pred": 50950,
+                    "n_ref": 53338
+                },
+                "1": {
+                    "Dice": 0.91084229390681,
+                    "FN": 0,
+                    "FP": 2388,
+                    "IoU": 0.8362813656931304,
+                    "TN": 50950,
+                    "TP": 12198,
+                    "n_pred": 14586,
+                    "n_ref": 12198
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1991.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1991.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9470443981571738,
+                    "FN": 271,
+                    "FP": 4890,
+                    "IoU": 0.8994153186513351,
+                    "TN": 14226,
+                    "TP": 46149,
+                    "n_pred": 51039,
+                    "n_ref": 46420
+                },
+                "1": {
+                    "Dice": 0.8464582155713564,
+                    "FN": 4890,
+                    "FP": 271,
+                    "IoU": 0.7337906844792903,
+                    "TN": 46149,
+                    "TP": 14226,
+                    "n_pred": 14497,
+                    "n_ref": 19116
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1992.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1992.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9915513424916781,
+                    "FN": 995,
+                    "FP": 5,
+                    "IoU": 0.9832442485883279,
+                    "TN": 5855,
+                    "TP": 58681,
+                    "n_pred": 58686,
+                    "n_ref": 59676
+                },
+                "1": {
+                    "Dice": 0.9213217938630999,
+                    "FN": 5,
+                    "FP": 995,
+                    "IoU": 0.8541210795040116,
+                    "TN": 58681,
+                    "TP": 5855,
+                    "n_pred": 6850,
+                    "n_ref": 5860
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1993.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1993.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9989052698869312,
+                    "FN": 114,
+                    "FP": 23,
+                    "IoU": 0.9978129340208489,
+                    "TN": 2895,
+                    "TP": 62504,
+                    "n_pred": 62527,
+                    "n_ref": 62618
+                },
+                "1": {
+                    "Dice": 0.976885439514088,
+                    "FN": 23,
+                    "FP": 114,
+                    "IoU": 0.9548153034300791,
+                    "TN": 62504,
+                    "TP": 2895,
+                    "n_pred": 3009,
+                    "n_ref": 2918
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1994.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1994.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9664141231059233,
+                    "FN": 3706,
+                    "FP": 0,
+                    "IoU": 0.935010960105217,
+                    "TN": 8511,
+                    "TP": 53319,
+                    "n_pred": 53319,
+                    "n_ref": 57025
+                },
+                "1": {
+                    "Dice": 0.8212080277884987,
+                    "FN": 0,
+                    "FP": 3706,
+                    "IoU": 0.6966522059425391,
+                    "TN": 53319,
+                    "TP": 8511,
+                    "n_pred": 12217,
+                    "n_ref": 8511
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1995.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1995.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9982233005909287,
+                    "FN": 5,
+                    "FP": 222,
+                    "IoU": 0.9964529033064566,
+                    "TN": 1540,
+                    "TP": 63769,
+                    "n_pred": 63991,
+                    "n_ref": 63774
+                },
+                "1": {
+                    "Dice": 0.9313577260356819,
+                    "FN": 222,
+                    "FP": 5,
+                    "IoU": 0.8715336728919072,
+                    "TN": 63769,
+                    "TP": 1540,
+                    "n_pred": 1545,
+                    "n_ref": 1762
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1996.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1996.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8507120751329699,
+                    "FN": 581,
+                    "FP": 10562,
+                    "IoU": 0.7402079641891262,
+                    "TN": 22644,
+                    "TP": 31749,
+                    "n_pred": 42311,
+                    "n_ref": 32330
+                },
+                "1": {
+                    "Dice": 0.8025376123052932,
+                    "FN": 10562,
+                    "FP": 581,
+                    "IoU": 0.6701985970935567,
+                    "TN": 31749,
+                    "TP": 22644,
+                    "n_pred": 23225,
+                    "n_ref": 33206
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1997.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1997.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9827866667892033,
+                    "FN": 1873,
+                    "FP": 0,
+                    "IoU": 0.9661559032922554,
+                    "TN": 10194,
+                    "TP": 53469,
+                    "n_pred": 53469,
+                    "n_ref": 55342
+                },
+                "1": {
+                    "Dice": 0.9158618211221419,
+                    "FN": 0,
+                    "FP": 1873,
+                    "IoU": 0.8447832932791912,
+                    "TN": 53469,
+                    "TP": 10194,
+                    "n_pred": 12067,
+                    "n_ref": 10194
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1998.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1998.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9865716396506019,
+                    "FN": 52,
+                    "FP": 1493,
+                    "IoU": 0.9734991423670669,
+                    "TN": 7236,
+                    "TP": 56755,
+                    "n_pred": 58248,
+                    "n_ref": 56807
+                },
+                "1": {
+                    "Dice": 0.9035399887619404,
+                    "FN": 1493,
+                    "FP": 52,
+                    "IoU": 0.8240519303040656,
+                    "TN": 56755,
+                    "TP": 7236,
+                    "n_pred": 7288,
+                    "n_ref": 8729
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_1999.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_1999.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9979670312352256,
+                    "FN": 243,
+                    "FP": 15,
+                    "IoU": 0.9959423116241762,
+                    "TN": 1953,
+                    "TP": 63325,
+                    "n_pred": 63340,
+                    "n_ref": 63568
+                },
+                "1": {
+                    "Dice": 0.9380403458213257,
+                    "FN": 15,
+                    "FP": 243,
+                    "IoU": 0.8833107191316146,
+                    "TN": 63325,
+                    "TP": 1953,
+                    "n_pred": 2196,
+                    "n_ref": 1968
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2000.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2000.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9945749186237793,
+                    "FN": 351,
+                    "FP": 114,
+                    "IoU": 0.9892083826498642,
+                    "TN": 22447,
+                    "TP": 42624,
+                    "n_pred": 42738,
+                    "n_ref": 42975
+                },
+                "1": {
+                    "Dice": 0.9897484512445159,
+                    "FN": 114,
+                    "FP": 351,
+                    "IoU": 0.9797049581005587,
+                    "TN": 42624,
+                    "TP": 22447,
+                    "n_pred": 22798,
+                    "n_ref": 22561
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2001.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2001.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.5814970879519042,
+                    "FN": 4,
+                    "FP": 15589,
+                    "IoU": 0.4099371830772724,
+                    "TN": 39110,
+                    "TP": 10833,
+                    "n_pred": 26422,
+                    "n_ref": 10837
+                },
+                "1": {
+                    "Dice": 0.8337863622312472,
+                    "FN": 15589,
+                    "FP": 4,
+                    "IoU": 0.7149516479900554,
+                    "TN": 10833,
+                    "TP": 39110,
+                    "n_pred": 39114,
+                    "n_ref": 54699
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2002.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2002.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9986856105651875,
+                    "FN": 143,
+                    "FP": 25,
+                    "IoU": 0.9973746718339792,
+                    "TN": 1544,
+                    "TP": 63824,
+                    "n_pred": 63849,
+                    "n_ref": 63967
+                },
+                "1": {
+                    "Dice": 0.9484029484029484,
+                    "FN": 25,
+                    "FP": 143,
+                    "IoU": 0.9018691588785047,
+                    "TN": 63824,
+                    "TP": 1544,
+                    "n_pred": 1687,
+                    "n_ref": 1569
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2003.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2003.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9281171752088457,
+                    "FN": 104,
+                    "FP": 6384,
+                    "IoU": 0.8658755917557315,
+                    "TN": 17163,
+                    "TP": 41885,
+                    "n_pred": 48269,
+                    "n_ref": 41989
+                },
+                "1": {
+                    "Dice": 0.8410349389915225,
+                    "FN": 6384,
+                    "FP": 104,
+                    "IoU": 0.7256775612024862,
+                    "TN": 41885,
+                    "TP": 17163,
+                    "n_pred": 17267,
+                    "n_ref": 23547
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2004.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2004.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9950412694350247,
+                    "FN": 187,
+                    "FP": 433,
+                    "IoU": 0.9901314742304141,
+                    "TN": 2710,
+                    "TP": 62206,
+                    "n_pred": 62639,
+                    "n_ref": 62393
+                },
+                "1": {
+                    "Dice": 0.8973509933774835,
+                    "FN": 433,
+                    "FP": 187,
+                    "IoU": 0.8138138138138138,
+                    "TN": 62206,
+                    "TP": 2710,
+                    "n_pred": 2897,
+                    "n_ref": 3143
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2005.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2005.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9879835039817975,
+                    "FN": 180,
+                    "FP": 834,
+                    "IoU": 0.9762523712499122,
+                    "TN": 22837,
+                    "TP": 41685,
+                    "n_pred": 42519,
+                    "n_ref": 41865
+                },
+                "1": {
+                    "Dice": 0.9782813570939,
+                    "FN": 834,
+                    "FP": 180,
+                    "IoU": 0.957486059284726,
+                    "TN": 41685,
+                    "TP": 22837,
+                    "n_pred": 23017,
+                    "n_ref": 23671
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2006.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2006.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9789801851426823,
+                    "FN": 2104,
+                    "FP": 94,
+                    "IoU": 0.9588258434333027,
+                    "TN": 12153,
+                    "TP": 51185,
+                    "n_pred": 51279,
+                    "n_ref": 53289
+                },
+                "1": {
+                    "Dice": 0.9170691216420163,
+                    "FN": 94,
+                    "FP": 2104,
+                    "IoU": 0.8468399414674935,
+                    "TN": 51185,
+                    "TP": 12153,
+                    "n_pred": 14257,
+                    "n_ref": 12247
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2007.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2007.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9969935131778892,
+                    "FN": 19,
+                    "FP": 349,
+                    "IoU": 0.9940050500936711,
+                    "TN": 4151,
+                    "TP": 61017,
+                    "n_pred": 61366,
+                    "n_ref": 61036
+                },
+                "1": {
+                    "Dice": 0.9575547866205306,
+                    "FN": 349,
+                    "FP": 19,
+                    "IoU": 0.9185660544368223,
+                    "TN": 61017,
+                    "TP": 4151,
+                    "n_pred": 4170,
+                    "n_ref": 4500
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2008.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2008.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9575193798449613,
+                    "FN": 86,
+                    "FP": 3887,
+                    "IoU": 0.9185008923259964,
+                    "TN": 16787,
+                    "TP": 44776,
+                    "n_pred": 48663,
+                    "n_ref": 44862
+                },
+                "1": {
+                    "Dice": 0.8941859536048153,
+                    "FN": 3887,
+                    "FP": 86,
+                    "IoU": 0.8086223506743738,
+                    "TN": 44776,
+                    "TP": 16787,
+                    "n_pred": 16873,
+                    "n_ref": 20674
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2009.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2009.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9266613106851831,
+                    "FN": 2063,
+                    "FP": 1132,
+                    "IoU": 0.863344739093242,
+                    "TN": 42156,
+                    "TP": 20185,
+                    "n_pred": 21317,
+                    "n_ref": 22248
+                },
+                "1": {
+                    "Dice": 0.9634886351948987,
+                    "FN": 1132,
+                    "FP": 2063,
+                    "IoU": 0.9295495137924191,
+                    "TN": 20185,
+                    "TP": 42156,
+                    "n_pred": 44219,
+                    "n_ref": 43288
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2010.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2010.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9933362167011069,
+                    "FN": 118,
+                    "FP": 714,
+                    "IoU": 0.9867606575115765,
+                    "TN": 2693,
+                    "TP": 62011,
+                    "n_pred": 62725,
+                    "n_ref": 62129
+                },
+                "1": {
+                    "Dice": 0.8661949179800579,
+                    "FN": 714,
+                    "FP": 118,
+                    "IoU": 0.7639716312056738,
+                    "TN": 62011,
+                    "TP": 2693,
+                    "n_pred": 2811,
+                    "n_ref": 3407
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2011.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2011.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9859642485576469,
+                    "FN": 1453,
+                    "FP": 31,
+                    "IoU": 0.9723170481466973,
+                    "TN": 11929,
+                    "TP": 52123,
+                    "n_pred": 52154,
+                    "n_ref": 53576
+                },
+                "1": {
+                    "Dice": 0.9414410859442822,
+                    "FN": 31,
+                    "FP": 1453,
+                    "IoU": 0.8893610676209648,
+                    "TN": 52123,
+                    "TP": 11929,
+                    "n_pred": 13382,
+                    "n_ref": 11960
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2012.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2012.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9559125544615267,
+                    "FN": 79,
+                    "FP": 4515,
+                    "IoU": 0.9155483657487408,
+                    "TN": 11138,
+                    "TP": 49804,
+                    "n_pred": 54319,
+                    "n_ref": 49883
+                },
+                "1": {
+                    "Dice": 0.8290286564942315,
+                    "FN": 4515,
+                    "FP": 79,
+                    "IoU": 0.7079837274345283,
+                    "TN": 49804,
+                    "TP": 11138,
+                    "n_pred": 11217,
+                    "n_ref": 15653
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2013.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2013.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9131447674954263,
+                    "FN": 2298,
+                    "FP": 4301,
+                    "IoU": 0.8401714783956598,
+                    "TN": 24248,
+                    "TP": 34689,
+                    "n_pred": 38990,
+                    "n_ref": 36987
+                },
+                "1": {
+                    "Dice": 0.8802250657954442,
+                    "FN": 4301,
+                    "FP": 2298,
+                    "IoU": 0.7860731999870327,
+                    "TN": 34689,
+                    "TP": 24248,
+                    "n_pred": 26546,
+                    "n_ref": 28549
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2014.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2014.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9672106391760881,
+                    "FN": 3114,
+                    "FP": 143,
+                    "IoU": 0.9365032947323274,
+                    "TN": 14242,
+                    "TP": 48037,
+                    "n_pred": 48180,
+                    "n_ref": 51151
+                },
+                "1": {
+                    "Dice": 0.8973882360354116,
+                    "FN": 143,
+                    "FP": 3114,
+                    "IoU": 0.8138750785759187,
+                    "TN": 48037,
+                    "TP": 14242,
+                    "n_pred": 17356,
+                    "n_ref": 14385
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2015.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2015.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.850619055311143,
+                    "FN": 0,
+                    "FP": 15721,
+                    "IoU": 0.7400671285197004,
+                    "TN": 5055,
+                    "TP": 44760,
+                    "n_pred": 60481,
+                    "n_ref": 44760
+                },
+                "1": {
+                    "Dice": 0.3913901900816848,
+                    "FN": 15721,
+                    "FP": 0,
+                    "IoU": 0.24330958798613786,
+                    "TN": 44760,
+                    "TP": 5055,
+                    "n_pred": 5055,
+                    "n_ref": 20776
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2016.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2016.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9062741914166493,
+                    "FN": 6598,
+                    "FP": 3330,
+                    "IoU": 0.8286118735650042,
+                    "TN": 7609,
+                    "TP": 47999,
+                    "n_pred": 51329,
+                    "n_ref": 54597
+                },
+                "1": {
+                    "Dice": 0.6051857154219359,
+                    "FN": 3330,
+                    "FP": 6598,
+                    "IoU": 0.4338826481154131,
+                    "TN": 47999,
+                    "TP": 7609,
+                    "n_pred": 14207,
+                    "n_ref": 10939
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2017.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2017.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9023693313098998,
+                    "FN": 104,
+                    "FP": 7037,
+                    "IoU": 0.8221065218474416,
+                    "TN": 25394,
+                    "TP": 33001,
+                    "n_pred": 40038,
+                    "n_ref": 33105
+                },
+                "1": {
+                    "Dice": 0.8767284089143607,
+                    "FN": 7037,
+                    "FP": 104,
+                    "IoU": 0.7805132933763639,
+                    "TN": 33001,
+                    "TP": 25394,
+                    "n_pred": 25498,
+                    "n_ref": 32431
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2018.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2018.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9950171413609995,
+                    "FN": 466,
+                    "FP": 143,
+                    "IoU": 0.9900836942716644,
+                    "TN": 4122,
+                    "TP": 60805,
+                    "n_pred": 60948,
+                    "n_ref": 61271
+                },
+                "1": {
+                    "Dice": 0.931209759403592,
+                    "FN": 143,
+                    "FP": 466,
+                    "IoU": 0.8712745719720989,
+                    "TN": 60805,
+                    "TP": 4122,
+                    "n_pred": 4588,
+                    "n_ref": 4265
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2019.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2019.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9965159547153116,
+                    "FN": 441,
+                    "FP": 0,
+                    "IoU": 0.9930561022847155,
+                    "TN": 2027,
+                    "TP": 63068,
+                    "n_pred": 63068,
+                    "n_ref": 63509
+                },
+                "1": {
+                    "Dice": 0.9018909899888765,
+                    "FN": 0,
+                    "FP": 441,
+                    "IoU": 0.8213128038897893,
+                    "TN": 63068,
+                    "TP": 2027,
+                    "n_pred": 2468,
+                    "n_ref": 2027
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2020.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2020.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.999189425115351,
+                    "FN": 7,
+                    "FP": 97,
+                    "IoU": 0.9983801632297054,
+                    "TN": 1332,
+                    "TP": 64100,
+                    "n_pred": 64197,
+                    "n_ref": 64107
+                },
+                "1": {
+                    "Dice": 0.9624277456647399,
+                    "FN": 97,
+                    "FP": 7,
+                    "IoU": 0.9275766016713092,
+                    "TN": 64100,
+                    "TP": 1332,
+                    "n_pred": 1339,
+                    "n_ref": 1429
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2021.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2021.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9984506746183132,
+                    "FN": 198,
+                    "FP": 1,
+                    "IoU": 0.9969061426283795,
+                    "TN": 1215,
+                    "TP": 64122,
+                    "n_pred": 64123,
+                    "n_ref": 64320
+                },
+                "1": {
+                    "Dice": 0.9243058197033093,
+                    "FN": 1,
+                    "FP": 198,
+                    "IoU": 0.8592644978783592,
+                    "TN": 64122,
+                    "TP": 1215,
+                    "n_pred": 1413,
+                    "n_ref": 1216
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2022.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2022.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9959689483049112,
+                    "FN": 509,
+                    "FP": 3,
+                    "IoU": 0.9919702648871602,
+                    "TN": 1773,
+                    "TP": 63251,
+                    "n_pred": 63254,
+                    "n_ref": 63760
+                },
+                "1": {
+                    "Dice": 0.8738294726466239,
+                    "FN": 3,
+                    "FP": 509,
+                    "IoU": 0.7759299781181619,
+                    "TN": 63251,
+                    "TP": 1773,
+                    "n_pred": 2282,
+                    "n_ref": 1776
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2023.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2023.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9955311378780113,
+                    "FN": 43,
+                    "FP": 515,
+                    "IoU": 0.9911020395145987,
+                    "TN": 2825,
+                    "TP": 62153,
+                    "n_pred": 62668,
+                    "n_ref": 62196
+                },
+                "1": {
+                    "Dice": 0.9101159793814433,
+                    "FN": 515,
+                    "FP": 43,
+                    "IoU": 0.8350576411469111,
+                    "TN": 62153,
+                    "TP": 2825,
+                    "n_pred": 2868,
+                    "n_ref": 3340
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2024.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2024.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8163007866566218,
+                    "FN": 1271,
+                    "FP": 9214,
+                    "IoU": 0.6896184245581836,
+                    "TN": 31755,
+                    "TP": 23296,
+                    "n_pred": 32510,
+                    "n_ref": 24567
+                },
+                "1": {
+                    "Dice": 0.8583012365700385,
+                    "FN": 9214,
+                    "FP": 1271,
+                    "IoU": 0.7517755681818182,
+                    "TN": 23296,
+                    "TP": 31755,
+                    "n_pred": 33026,
+                    "n_ref": 40969
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2025.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2025.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9895963307489093,
+                    "FN": 824,
+                    "FP": 385,
+                    "IoU": 0.979406905244511,
+                    "TN": 6827,
+                    "TP": 57500,
+                    "n_pred": 57885,
+                    "n_ref": 58324
+                },
+                "1": {
+                    "Dice": 0.9186570678866985,
+                    "FN": 385,
+                    "FP": 824,
+                    "IoU": 0.8495520159283225,
+                    "TN": 57500,
+                    "TP": 6827,
+                    "n_pred": 7651,
+                    "n_ref": 7212
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2026.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2026.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9510473774650192,
+                    "FN": 546,
+                    "FP": 4240,
+                    "IoU": 0.9066638063849289,
+                    "TN": 14259,
+                    "TP": 46491,
+                    "n_pred": 50731,
+                    "n_ref": 47037
+                },
+                "1": {
+                    "Dice": 0.856293538313716,
+                    "FN": 4240,
+                    "FP": 546,
+                    "IoU": 0.7487004463113678,
+                    "TN": 46491,
+                    "TP": 14259,
+                    "n_pred": 14805,
+                    "n_ref": 18499
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2027.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2027.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9229063057755289,
+                    "FN": 8877,
+                    "FP": 21,
+                    "IoU": 0.8568486759548248,
+                    "TN": 3378,
+                    "TP": 53260,
+                    "n_pred": 53281,
+                    "n_ref": 62137
+                },
+                "1": {
+                    "Dice": 0.43158298198543504,
+                    "FN": 21,
+                    "FP": 8877,
+                    "IoU": 0.2751710654936461,
+                    "TN": 53260,
+                    "TP": 3378,
+                    "n_pred": 12255,
+                    "n_ref": 3399
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2028.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2028.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9814318393023089,
+                    "FN": 373,
+                    "FP": 1705,
+                    "IoU": 0.9635406614615317,
+                    "TN": 8541,
+                    "TP": 54917,
+                    "n_pred": 56622,
+                    "n_ref": 55290
+                },
+                "1": {
+                    "Dice": 0.891544885177453,
+                    "FN": 1705,
+                    "FP": 373,
+                    "IoU": 0.804313023825219,
+                    "TN": 54917,
+                    "TP": 8541,
+                    "n_pred": 8914,
+                    "n_ref": 10246
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2029.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2029.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9784360959914644,
+                    "FN": 0,
+                    "FP": 2587,
+                    "IoU": 0.9577825647051144,
+                    "TN": 4258,
+                    "TP": 58691,
+                    "n_pred": 61278,
+                    "n_ref": 58691
+                },
+                "1": {
+                    "Dice": 0.766999909934252,
+                    "FN": 2587,
+                    "FP": 0,
+                    "IoU": 0.6220598977355735,
+                    "TN": 58691,
+                    "TP": 4258,
+                    "n_pred": 4258,
+                    "n_ref": 6845
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2030.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2030.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9931749707937939,
+                    "FN": 114,
+                    "FP": 552,
+                    "IoU": 0.9864424721113916,
+                    "TN": 16412,
+                    "TP": 48458,
+                    "n_pred": 49010,
+                    "n_ref": 48572
+                },
+                "1": {
+                    "Dice": 0.9801134667064796,
+                    "FN": 552,
+                    "FP": 114,
+                    "IoU": 0.9610024593043682,
+                    "TN": 48458,
+                    "TP": 16412,
+                    "n_pred": 16526,
+                    "n_ref": 16964
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2031.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2031.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9876131567926291,
+                    "FN": 1115,
+                    "FP": 423,
+                    "IoU": 0.9755294267394313,
+                    "TN": 2685,
+                    "TP": 61313,
+                    "n_pred": 61736,
+                    "n_ref": 62428
+                },
+                "1": {
+                    "Dice": 0.7773595830920672,
+                    "FN": 423,
+                    "FP": 1115,
+                    "IoU": 0.6358039308548425,
+                    "TN": 61313,
+                    "TP": 2685,
+                    "n_pred": 3800,
+                    "n_ref": 3108
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2032.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2032.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9913091821801444,
+                    "FN": 1063,
+                    "FP": 0,
+                    "IoU": 0.9827681234599922,
+                    "TN": 3848,
+                    "TP": 60625,
+                    "n_pred": 60625,
+                    "n_ref": 61688
+                },
+                "1": {
+                    "Dice": 0.8786391140541158,
+                    "FN": 0,
+                    "FP": 1063,
+                    "IoU": 0.7835471390755447,
+                    "TN": 60625,
+                    "TP": 3848,
+                    "n_pred": 4911,
+                    "n_ref": 3848
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2033.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2033.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.745847720827948,
+                    "FN": 26350,
+                    "FP": 0,
+                    "IoU": 0.5947026794228936,
+                    "TN": 522,
+                    "TP": 38664,
+                    "n_pred": 38664,
+                    "n_ref": 65014
+                },
+                "1": {
+                    "Dice": 0.03811053515368329,
+                    "FN": 0,
+                    "FP": 26350,
+                    "IoU": 0.019425424233402797,
+                    "TN": 38664,
+                    "TP": 522,
+                    "n_pred": 26872,
+                    "n_ref": 522
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2034.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2034.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.8865949191009591,
+                    "FN": 10843,
+                    "FP": 0,
+                    "IoU": 0.7962914255654918,
+                    "TN": 12308,
+                    "TP": 42385,
+                    "n_pred": 42385,
+                    "n_ref": 53228
+                },
+                "1": {
+                    "Dice": 0.6942102146140613,
+                    "FN": 0,
+                    "FP": 10843,
+                    "IoU": 0.5316401019394411,
+                    "TN": 42385,
+                    "TP": 12308,
+                    "n_pred": 23151,
+                    "n_ref": 12308
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2035.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2035.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9765579729231417,
+                    "FN": 467,
+                    "FP": 1758,
+                    "IoU": 0.954189829112621,
+                    "TN": 16966,
+                    "TP": 46345,
+                    "n_pred": 48103,
+                    "n_ref": 46812
+                },
+                "1": {
+                    "Dice": 0.9384628149459302,
+                    "FN": 1758,
+                    "FP": 467,
+                    "IoU": 0.8840602365692252,
+                    "TN": 46345,
+                    "TP": 16966,
+                    "n_pred": 17433,
+                    "n_ref": 18724
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2036.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2036.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9594980163917655,
+                    "FN": 2459,
+                    "FP": 1104,
+                    "IoU": 0.9221491467651365,
+                    "TN": 19769,
+                    "TP": 42204,
+                    "n_pred": 43308,
+                    "n_ref": 44663
+                },
+                "1": {
+                    "Dice": 0.9173337045544186,
+                    "FN": 1104,
+                    "FP": 2459,
+                    "IoU": 0.8472912737870736,
+                    "TN": 42204,
+                    "TP": 19769,
+                    "n_pred": 22228,
+                    "n_ref": 20873
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2037.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2037.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.6770984352347148,
+                    "FN": 192,
+                    "FP": 12726,
+                    "IoU": 0.5118282820648478,
+                    "TN": 39074,
+                    "TP": 13544,
+                    "n_pred": 26270,
+                    "n_ref": 13736
+                },
+                "1": {
+                    "Dice": 0.8581468385566512,
+                    "FN": 12726,
+                    "FP": 192,
+                    "IoU": 0.751538698261271,
+                    "TN": 13544,
+                    "TP": 39074,
+                    "n_pred": 39266,
+                    "n_ref": 51800
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2038.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2038.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9989760905417341,
+                    "FN": 25,
+                    "FP": 106,
+                    "IoU": 0.9979542757199076,
+                    "TN": 1500,
+                    "TP": 63905,
+                    "n_pred": 64011,
+                    "n_ref": 63930
+                },
+                "1": {
+                    "Dice": 0.9581603321622485,
+                    "FN": 106,
+                    "FP": 25,
+                    "IoU": 0.9196811771919068,
+                    "TN": 63905,
+                    "TP": 1500,
+                    "n_pred": 1525,
+                    "n_ref": 1606
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2039.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2039.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9933441610139805,
+                    "FN": 836,
+                    "FP": 0,
+                    "IoU": 0.986776336602341,
+                    "TN": 2316,
+                    "TP": 62384,
+                    "n_pred": 62384,
+                    "n_ref": 63220
+                },
+                "1": {
+                    "Dice": 0.8471104608632041,
+                    "FN": 0,
+                    "FP": 836,
+                    "IoU": 0.7347715736040609,
+                    "TN": 62384,
+                    "TP": 2316,
+                    "n_pred": 3152,
+                    "n_ref": 2316
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2040.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2040.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.817018999197217,
+                    "FN": 2643,
+                    "FP": 776,
+                    "IoU": 0.6906442272891784,
+                    "TN": 54484,
+                    "TP": 7633,
+                    "n_pred": 8409,
+                    "n_ref": 10276
+                },
+                "1": {
+                    "Dice": 0.9695783320134891,
+                    "FN": 776,
+                    "FP": 2643,
+                    "IoU": 0.9409529730756611,
+                    "TN": 7633,
+                    "TP": 54484,
+                    "n_pred": 57127,
+                    "n_ref": 55260
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2041.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2041.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9597675052220507,
+                    "FN": 1965,
+                    "FP": 250,
+                    "IoU": 0.9226471101798498,
+                    "TN": 36901,
+                    "TP": 26420,
+                    "n_pred": 26670,
+                    "n_ref": 28385
+                },
+                "1": {
+                    "Dice": 0.9708617809174264,
+                    "FN": 250,
+                    "FP": 1965,
+                    "IoU": 0.94337355557828,
+                    "TN": 26420,
+                    "TP": 36901,
+                    "n_pred": 38866,
+                    "n_ref": 37151
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2042.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2042.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9872545026474474,
+                    "FN": 1197,
+                    "FP": 86,
+                    "IoU": 0.9748298118611815,
+                    "TN": 14563,
+                    "TP": 49690,
+                    "n_pred": 49776,
+                    "n_ref": 50887
+                },
+                "1": {
+                    "Dice": 0.957808543523299,
+                    "FN": 86,
+                    "FP": 1197,
+                    "IoU": 0.9190331944970339,
+                    "TN": 49690,
+                    "TP": 14563,
+                    "n_pred": 15760,
+                    "n_ref": 14649
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2043.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2043.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.982332289952144,
+                    "FN": 29,
+                    "FP": 1828,
+                    "IoU": 0.9652780374705509,
+                    "TN": 12054,
+                    "TP": 51625,
+                    "n_pred": 53453,
+                    "n_ref": 51654
+                },
+                "1": {
+                    "Dice": 0.9284806470248411,
+                    "FN": 1828,
+                    "FP": 29,
+                    "IoU": 0.8665085184386456,
+                    "TN": 51625,
+                    "TP": 12054,
+                    "n_pred": 12083,
+                    "n_ref": 13882
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2044.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2044.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9984828341284117,
+                    "FN": 170,
+                    "FP": 24,
+                    "IoU": 0.9969702648675662,
+                    "TN": 1504,
+                    "TP": 63838,
+                    "n_pred": 63862,
+                    "n_ref": 64008
+                },
+                "1": {
+                    "Dice": 0.9394128669581512,
+                    "FN": 24,
+                    "FP": 170,
+                    "IoU": 0.8857479387514723,
+                    "TN": 63838,
+                    "TP": 1504,
+                    "n_pred": 1674,
+                    "n_ref": 1528
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2045.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2045.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9598916661498067,
+                    "FN": 211,
+                    "FP": 3669,
+                    "IoU": 0.9228766224731162,
+                    "TN": 15227,
+                    "TP": 46429,
+                    "n_pred": 50098,
+                    "n_ref": 46640
+                },
+                "1": {
+                    "Dice": 0.8869924855828042,
+                    "FN": 3669,
+                    "FP": 211,
+                    "IoU": 0.7969330611817659,
+                    "TN": 46429,
+                    "TP": 15227,
+                    "n_pred": 15438,
+                    "n_ref": 18896
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2046.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2046.nii.gz"
+        },
+        {
+            "metrics": {
+                "0": {
+                    "Dice": 0.9808362505775752,
+                    "FN": 67,
+                    "FP": 2380,
+                    "IoU": 0.9623931886641667,
+                    "TN": 468,
+                    "TP": 62621,
+                    "n_pred": 65001,
+                    "n_ref": 62688
+                },
+                "1": {
+                    "Dice": 0.27667750517292344,
+                    "FN": 2380,
+                    "FP": 67,
+                    "IoU": 0.16054888507718695,
+                    "TN": 62621,
+                    "TP": 468,
+                    "n_pred": 535,
+                    "n_ref": 2848
+                }
+            },
+            "prediction_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/inference_preds/Dataset011_Melanoma_2047.nii.gz",
+            "reference_file": "/home/scur0404/projects/MelanomaDetectionAndSegmentation/nnUNet_results/Dataset011_Melanoma/nnUNetTrainer__nnUNetPlans__2d/test_msk/Dataset011_Melanoma_2047.nii.gz"
+        }
+    ]
+}
